@@ -1,4 +1,20 @@
 
-<div class="col-6 calendar-container">
-  <app-calendar-component></app-calendar-component>
+<div class="container">
+  <div class="tab-content">
+    <ul class="nav nav-tabs rtl">
+      <li class="nav-item">
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/']">יומן</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/newInstallation']">התקנה חדשה</a>
+      </li>
+    </ul>
+
+    <div>
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
 </div>

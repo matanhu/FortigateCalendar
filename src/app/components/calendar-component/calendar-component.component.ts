@@ -15,16 +15,20 @@ import {
   endOfMonth,
   isSameDay,
   isSameMonth,
-  addHours
+  addHours,
+  startOfMonth,
+  startOfWeek,
+  endOfWeek,
+  format
 } from 'date-fns';
 import { Subject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import {
-  CalendarEvent,
   CalendarEventAction,
   CalendarEventTimesChangedEvent
 } from 'angular-calendar';
-import { FortigateService } from '../Services/fortigate.service/fortigate.service';
+import { FortigateService } from '../../Services/fortigate.service/fortigate.service';
+import { FortyCalendarEvent } from '../../models/fortyCalendarEvent';
 
 const colors: any = {
   red: {
@@ -43,11 +47,11 @@ const colors: any = {
 
 @Component({
   selector: 'app-calendar-component',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  // changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './calendar-component.component.html',
   styleUrls: ['./calendar-component.component.css']
 })
-export class CalendarComponentComponent implements OnInit{
+export class CalendarComponentComponent implements OnInit {
   @ViewChild('modalContent') modalContent: TemplateRef<any>;
 
   view = 'month';
@@ -56,19 +60,19 @@ export class CalendarComponentComponent implements OnInit{
 
   modalData: {
     action: string;
-    event: CalendarEvent;
+    event: FortyCalendarEvent;
   };
 
   actions: CalendarEventAction[] = [
     {
       label: '<i class="fa fa-fw fa-pencil"></i>',
-      onClick: ({ event }: { event: CalendarEvent }): void => {
+      onClick: ({ event }: { event: FortyCalendarEvent }): void => {
         this.handleEvent('Edited', event);
       }
     },
     {
       label: '<i class="fa fa-fw fa-times"></i>',
-      onClick: ({ event }: { event: CalendarEvent }): void => {
+      onClick: ({ event }: { event: FortyCalendarEvent }): void => {
         this.events = this.events.filter(iEvent => iEvent !== event);
         this.handleEvent('Deleted', event);
       }
@@ -77,7 +81,7 @@ export class CalendarComponentComponent implements OnInit{
 
   refresh: Subject<any> = new Subject();
 
-  public events: CalendarEvent[] = [
+  public events: FortyCalendarEvent[] = [
     {
       start: subDays(startOfDay(new Date()), 1),
       end: addDays(new Date(), 1),
@@ -111,7 +115,7 @@ export class CalendarComponentComponent implements OnInit{
     }
   ];
 
-  public dayEvents: CalendarEvent[] = [];
+  public dayEvents: FortyCalendarEvent[] = [];
   activeDayIsOpen = true;
 
   constructor(private modal: NgbModal, private fortigatService: FortigateService) {}
@@ -120,10 +124,11 @@ export class CalendarComponentComponent implements OnInit{
     this.fortigatService.getAllInstallations().subscribe(
       (res: Array<any>) => {
         this.events = res.map((e) => {
-          const newEvent: CalendarEvent<any> = {
+          const newEvent: FortyCalendarEvent<any> = {
+            ...e,
             start: parse(new Date(e.installation_date)),
-            end: addHours(new Date(e.installation_date), 3),
-            title: e.line_code,
+            end: e.end ? new Date(e.end) : addHours(new Date(e.installation_date), 3),
+            title: `<div class="inline-block"><div>${e.customer_name}</div><div>${e.line_code}</div></div>`,
             id: e.id,
             color: colors.red,
             actions: this.actions
@@ -134,7 +139,7 @@ export class CalendarComponentComponent implements OnInit{
       });
   }
 
-  dayClicked({ date, events }: { date: Date; events: CalendarEvent[] }): void {
+  dayClicked({ date, events }: { date: Date; events: FortyCalendarEvent[] }): void {
     if (isSameMonth(date, this.viewDate)) {
       if ((isSameDay(this.viewDate, date) && this.activeDayIsOpen === true) || events.length === 0) {
         this.activeDayIsOpen = false;
@@ -157,7 +162,7 @@ export class CalendarComponentComponent implements OnInit{
     this.refresh.next();
   }
 
-  handleEvent(action: string, event: CalendarEvent): void {
+  handleEvent(action: string, event: FortyCalendarEvent): void {
     this.modalData = { event, action };
     this.modal.open(this.modalContent, { size: 'lg' });
   }
@@ -177,7 +182,24 @@ export class CalendarComponentComponent implements OnInit{
     this.refresh.next();
   }
 
-  setDayEvents(events: CalendarEvent[]) {
+  setDayEvents(events: FortyCalendarEvent[]) {
     this.dayEvents = events;
+  }
+
+  fetchEvents(): void {
+    const getStart: any = {
+      month: startOfMonth,
+      week: startOfWeek,
+      day: startOfDay
+    }[this.view];
+
+    const getEnd: any = {
+      month: endOfMonth,
+      week: endOfWeek,
+      day: endOfDay
+    }[this.view];
+
+    console.log(format(getStart(this.viewDate), 'YYYY-MM-DD'));
+    console.log(format(getEnd(this.viewDate), 'YYYY-MM-DD'));
   }
 }

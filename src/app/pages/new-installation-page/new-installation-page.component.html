@@ -1,0 +1,39 @@
+<h3>
+    התקנה חדשה
+    <div class="clearfix"></div>
+  </h3>
+
+
+  <table class="table table-bordered">
+
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Starts at</th>
+        <th>Ends at</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="event.title">
+        </td>
+        <td>
+          <app-date-time-picker
+            [(ngModel)]="event.start"
+            placeholder="Not set">
+          </app-date-time-picker>
+        </td>
+        <td>
+          <app-date-time-picker [(ngModel)]="event.end"
+          placeholder="Not set">
+        </app-date-time-picker>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>

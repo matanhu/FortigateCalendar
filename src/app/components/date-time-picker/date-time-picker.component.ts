@@ -48,9 +48,6 @@ export const DATE_TIME_PICKER_CONTROL_VALUE_ACCESSOR: any = {
       (ngModelChange)="updateTime()"
       [spinners]="false">
     </ngb-timepicker>
-    <div>
-      {{timeStruct | json}}
-    </div>
   `,
   styles: [
     `
