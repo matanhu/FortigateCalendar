@@ -13,6 +13,12 @@ import { DateTimePickerComponent } from './components/date-time-picker/date-time
 import { AppRoutingModule } from './Routing/app-routing.module';
 import { CalendarPageComponent } from './pages/calendar-page/calendar-page.component';
 import { NewInstallationPageComponent } from './pages/new-installation-page/new-installation-page.component';
+import { registerLocaleData } from '@angular/common';
+import localeHe from '@angular/common/locales/he';
+import { HebDatePickerComponent } from './components/heb-date-picker/heb-date-picker.component';
+
+registerLocaleData(localeHe);
+
 
 @NgModule({
   declarations: [
@@ -20,7 +26,8 @@ import { NewInstallationPageComponent } from './pages/new-installation-page/new-
     CalendarComponentComponent,
     DateTimePickerComponent,
     CalendarPageComponent,
-    NewInstallationPageComponent
+    NewInstallationPageComponent,
+    HebDatePickerComponent
   ],
   imports: [
     BrowserModule,

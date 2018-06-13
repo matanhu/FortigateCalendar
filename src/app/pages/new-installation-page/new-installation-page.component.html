@@ -1,39 +1,37 @@
-<h3>
+<div class="container">
+
+  <h3>
     התקנה חדשה
     <div class="clearfix"></div>
   </h3>
 
+  <div class="form-container col-6">
+    <form (ngSubmit)="onNewInstallation()">
+      <div class="form-group">
+        <label for="eged">מספר פרויקט</label>
+        <input type="text" class="form-control" id="eged" name="eged" [(ngModel)]="event.eged" placeholder="הכנס מספר פרויקט">
+      </div>
+      <div class="form-group">
+        <label for="customer_name">שם לקוח</label>
+        <input type="text" class="form-control" id="customer_name" name="customer_name" [(ngModel)]="event.customer_name" placeholder="הכנס שם לקוח">
+      </div>
+      <div class="form-group">
+        <label for="line_code">מספר קו</label>
+        <input type="text" class="form-control" id="line_code" name="line_code" [(ngModel)]="event.line_code" placeholder="הכנס מספר קו">
+      </div>
+      <div class="form-group">
+          <label for="installation_remarks">הערות</label>
+          <textarea class="form-control" id="installation_remarks" name="installation_remarks" [(ngModel)]="event.installation_remarks"></textarea>
+        </div>
 
-  <table class="table table-bordered">
-
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Starts at</th>
-        <th>Ends at</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>
-          <input
-            type="text"
-            class="form-control"
-            [(ngModel)]="event.title">
-        </td>
-        <td>
-          <app-date-time-picker
-            [(ngModel)]="event.start"
-            placeholder="Not set">
-          </app-date-time-picker>
-        </td>
-        <td>
-          <app-date-time-picker [(ngModel)]="event.end"
-          placeholder="Not set">
+      <div class="form-group">
+        <label for="installation_date">תאריך התקנה</label>
+        <app-date-time-picker  [(ngModel)]="event.installation_date" placeholder="בחר תאריך התקנה" name="'installation_date'"
+          [inputId]="'installation_date'" [disabledDates]="disabledDates">
         </app-date-time-picker>
-        </td>
-      </tr>
-    </tbody>
+      </div>
 
-  </table>
+      <button type="submit" class="btn btn-primary">שמור</button>
+    </form>
+  </div>
+</div>

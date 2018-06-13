@@ -22,13 +22,16 @@ import {
   format
 } from 'date-fns';
 import { Subject } from 'rxjs';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
 import {
   CalendarEventAction,
-  CalendarEventTimesChangedEvent
+  CalendarEventTimesChangedEvent,
+  CalendarMonthViewDay,
+  CalendarDateFormatter,
 } from 'angular-calendar';
 import { FortigateService } from '../../Services/fortigate.service/fortigate.service';
 import { FortyCalendarEvent } from '../../models/fortyCalendarEvent';
+import { CustomDateFormatter } from '../../Providers/custom-date-formatter.provider';
 
 const colors: any = {
   red: {
@@ -49,10 +52,20 @@ const colors: any = {
   selector: 'app-calendar-component',
   // changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './calendar-component.component.html',
-  styleUrls: ['./calendar-component.component.css']
+  styleUrls: ['./calendar-component.component.css'],
+  providers: [
+    {
+      provide: CalendarDateFormatter,
+      useClass: CustomDateFormatter
+    }
+  ]
 })
 export class CalendarComponentComponent implements OnInit {
   @ViewChild('modalContent') modalContent: TemplateRef<any>;
+
+  private modalRef: NgbModalRef;
+
+  locale: string = 'he';
 
   view = 'month';
 
@@ -81,39 +94,7 @@ export class CalendarComponentComponent implements OnInit {
 
   refresh: Subject<any> = new Subject();
 
-  public events: FortyCalendarEvent[] = [
-    {
-      start: subDays(startOfDay(new Date()), 1),
-      end: addDays(new Date(), 1),
-      title: 'A 3 day event',
-      color: colors.red,
-      actions: this.actions
-    },
-    {
-      start: startOfDay(new Date()),
-      title: 'An event with no end date',
-      color: colors.yellow,
-      actions: this.actions
-    },
-    {
-      start: subDays(endOfMonth(new Date()), 3),
-      end: addDays(endOfMonth(new Date()), 3),
-      title: 'A long event that spans 2 months',
-      color: colors.blue
-    },
-    {
-      start: addHours(startOfDay(new Date()), 2),
-      end: new Date(),
-      title: 'A draggable and resizable event',
-      color: colors.yellow,
-      actions: this.actions,
-      resizable: {
-        beforeStart: true,
-        afterEnd: true
-      },
-      draggable: true
-    }
-  ];
+  public events: FortyCalendarEvent[];
 
   public dayEvents: FortyCalendarEvent[] = [];
   activeDayIsOpen = true;
@@ -164,7 +145,7 @@ export class CalendarComponentComponent implements OnInit {
 
   handleEvent(action: string, event: FortyCalendarEvent): void {
     this.modalData = { event, action };
-    this.modal.open(this.modalContent, { size: 'lg' });
+    this.modalRef = this.modal.open(this.modalContent, { size: 'lg' });
   }
 
   addEvent(): void {
@@ -201,5 +182,17 @@ export class CalendarComponentComponent implements OnInit {
 
     console.log(format(getStart(this.viewDate), 'YYYY-MM-DD'));
     console.log(format(getEnd(this.viewDate), 'YYYY-MM-DD'));
+  }
+
+  closeModal() {
+    this.modalRef.close();
+  }
+
+  beforeMonthViewRender({ body }: { body: CalendarMonthViewDay[] }): void {
+    body.forEach(day => {
+      if (day.events.length > 2) {
+        day.cssClass = 'day-closed';
+      }
+    });
   }
 }

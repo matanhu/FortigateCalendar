@@ -1,0 +1,22 @@
+
+
+:host ::ng-deep .ngb-dp-weekday {
+  margin: .5em;
+}
+
+:host ::ng-deep .ngb-dp-day {
+  cursor: pointer;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 0.25rem;
+  background: transparent;
+  margin: .5em;
+  font-size: 80%;
+}
+
+:host ::ng-deep .ngb-dp-day.disabled, .ngb-dp-day.hidden {
+  cursor: default;
+  background: #e3e3e3;
+}

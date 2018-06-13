@@ -2,3 +2,16 @@
   /* direction: rtl;
   text-align: right; */
 }
+
+.container {
+  direction: rtl;
+  text-align: right;
+}
+
+.form-container {
+}
+
+app-date-time-picker {
+  direction: ltr;
+  text-align: right;
+}

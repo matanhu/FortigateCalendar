@@ -1,0 +1,19 @@
+<!-- <ngb-datepicker [(ngModel)]="model"></ngb-datepicker> -->
+<div class="form-group">
+  <div class="input-group">
+    <input readonly class="form-control" firstDayOfWeek='0' [placeholder]="placeholder" [id]="inputId" [(ngModel)]="dateStruct" (ngModelChange)="updateDate()"
+      ngbDatepicker #datePicker="ngbDatepicker" [dayTemplate]="customDay" [markDisabled]="isDisabled">
+    <div class="input-group-append" (click)="datePicker.toggle()">
+      <span class="input-group-text">
+        <i class="fa fa-calendar"></i>
+      </span>
+    </div>
+  </div>
+</div>
+
+<ng-template #customDay let-date="date" let-currentMonth="currentMonth" let-selected="selected" let-disabled="disabled" let-focused="focused">
+    <span class="custom-day" [class.weekend]="isWeekend(date)" [class.focused]="focused"
+          [class.bg-primary]="selected" [class.hidden]="date.month !== currentMonth" [class.text-muted]="disabled">
+      {{ date.day }}
+    </span>
+  </ng-template>

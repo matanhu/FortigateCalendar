@@ -1,3 +1,24 @@
-<p>
-  date-time-picker works!
-</p>
+<!-- <div class="form-group">
+  <div class="input-group">
+    <input
+      readonly
+      class="form-control"
+      [placeholder]="placeholder"
+      [id]="inputId"
+      [(ngModel)]="dateStruct"
+      (ngModelChange)="updateDate()"
+      firstDayOfWeek='0'
+      ngbDatepicker #datePicker="ngbDatepicker">
+    <div class="input-group-append" (click)="datePicker.toggle()">
+      <span class="input-group-text">
+        <i class="fa fa-calendar"></i>
+      </span>
+    </div>
+  </div>
+</div> -->
+<app-heb-date-picker [placeholder]="placeholder" [id]="inputId" [(ngModel)]="dateStruct" (ngModelChange)="updateDate()"
+  [disabledDates]="disabledDates"></app-heb-date-picker>
+<ngb-timepicker [(ngModel)]="timeStruct" (ngModelChange)="updateTime()" [spinners]="false">
+</ngb-timepicker>
+
+

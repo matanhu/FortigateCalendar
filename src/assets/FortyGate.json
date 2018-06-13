@@ -284,7 +284,7 @@
 		"status" : 0,
 		"line_code" : "6240633",
 		"installation_status" : 0,
-		"installation_remarks" : "איש קשר - משה לוי 03-6368208 / 054-4642886\r\nMoshe@lawpub.co.il\r\nפתרון אבטחת מידע עבור החברה הכלכלית של לשכת עורכי דין בע&quot;מ\r\nהפתרון מבוסס חומת אש FORTINET FortiGate-60D-bundle מק&quot;ט 125613\r\nהתקנה על קו ביזנט 03-6240633 (יש להתקין לפני היח&#39; TG670 בתצורת Bridge).\r\n\r\n08/02/16 - הועברה הזמנה מהלקוח, פניה 8131506, ממתין לביצוע סקר אתר מול הלקוח.\r\n11/02/16 - בוצע סקר אבטחת מידע מול הלקוח, מצורף לפרויקט, נא למנות מנהל פרויקט להנחיה על פתיחת הזמנה, תומר נא צירוף רפרנט טכני לליווי הפרויקט.",
+		"installation_remarks" : "איש קשר - משה לוי 03-6368208 / 054-4642886\r\nMoshe@lawpub.co.il\r\nפתרון אבטחת מידע עבור החברה הכלכלית של לשכת עורכי דין בע\"מ\r\nהפתרון מבוסס חומת אש FORTINET FortiGate-60D-bundle מק\"ט 125613\r\nהתקנה על קו ביזנט 03-6240633 (יש להתקין לפני היח&#39; TG670 בתצורת Bridge).\r\n\r\n08/02/16 - הועברה הזמנה מהלקוח, פניה 8131506, ממתין לביצוע סקר אתר מול הלקוח.\r\n11/02/16 - בוצע סקר אבטחת מידע מול הלקוח, מצורף לפרויקט, נא למנות מנהל פרויקט להנחיה על פתיחת הזמנה, תומר נא צירוף רפרנט טכני לליווי הפרויקט.",
 		"Script_file" : null
 	},
 	{
@@ -302,12 +302,12 @@
 		"status" : 1,
 		"line_code" : "83-8319417",
 		"installation_status" : 0,
-		"installation_remarks" : "התקנה ע&quot;ג פורטייגיט 60 D - יבוצע פיילוט.\r\nאיש הקשר רמי 054-8080565",
+		"installation_remarks" : "התקנה ע\"ג פורטייגיט 60 D - יבוצע פיילוט.\r\nאיש הקשר רמי 054-8080565",
 		"Script_file" : null
 	},
 	{
 		"id" : 220,
-		"customer_name" : "צבי כהן אקולוגיה בע&quot;מ",
+		"customer_name" : "צבי כהן אקולוגיה בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220070533",
@@ -325,7 +325,7 @@
 	},
 	{
 		"id" : 222,
-		"customer_name" : "אימג&#39;סטור מערכות בע&quot;מ",
+		"customer_name" : "אימג&#39;סטור מערכות בע\"מ",
 		"fortigate_type" : "200D",
 		"egedType" : "Bdesk",
 		"eged" : "220071319",
@@ -343,7 +343,7 @@
 	},
 	{
 		"id" : 223,
-		"customer_name" : "סאלח דאבח ובניו בע&quot;מ",
+		"customer_name" : "סאלח דאבח ובניו בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220064418",
@@ -361,7 +361,7 @@
 	},
 	{
 		"id" : 224,
-		"customer_name" : "בית אקשטיין בע&quot;מ",
+		"customer_name" : "בית אקשטיין בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220070216",
@@ -379,7 +379,7 @@
 	},
 	{
 		"id" : 228,
-		"customer_name" : "אסרף - דובמן בע&quot;מ",
+		"customer_name" : "אסרף - דובמן בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220069333",
@@ -397,7 +397,7 @@
 	},
 	{
 		"id" : 229,
-		"customer_name" : "סאלח דאבח ובניו בע&quot;מ",
+		"customer_name" : "סאלח דאבח ובניו בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220064418",
@@ -415,7 +415,7 @@
 	},
 	{
 		"id" : 230,
-		"customer_name" : "כפר ילדים ונוער &quot;אהבה&quot;",
+		"customer_name" : "כפר ילדים ונוער \"אהבה\"",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220071683",
@@ -428,12 +428,12 @@
 		"status" : 1,
 		"line_code" : "82-9319831",
 		"installation_status" : 0,
-		"installation_remarks" : "ע&quot;ג מטרו קיים 82-9418812",
+		"installation_remarks" : "ע\"ג מטרו קיים 82-9418812",
 		"Script_file" : null
 	},
 	{
 		"id" : 231,
-		"customer_name" : "אלקטרוסטאר שווק (1987) בע&quot;מ",
+		"customer_name" : "אלקטרוסטאר שווק (1987) בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220070992",
@@ -469,7 +469,7 @@
 	},
 	{
 		"id" : 233,
-		"customer_name" : "פייפאל ישראל בע&quot;מ",
+		"customer_name" : "פייפאל ישראל בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220071081",
@@ -487,7 +487,7 @@
 	},
 	{
 		"id" : 234,
-		"customer_name" : "החברה לפיתוח עכו העתיקה בע&quot;מ",
+		"customer_name" : "החברה לפיתוח עכו העתיקה בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220071638",
@@ -505,7 +505,7 @@
 	},
 	{
 		"id" : 235,
-		"customer_name" : "ל.ל. גלובוס בע&quot;מ",
+		"customer_name" : "ל.ל. גלובוס בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072059",
@@ -523,7 +523,7 @@
 	},
 	{
 		"id" : 237,
-		"customer_name" : "נזר אהרון בני ברק - ע&quot;ש ר&#39; אהרון אורפלי זצ&quot;ל",
+		"customer_name" : "נזר אהרון בני ברק - ע\"ש ר&#39; אהרון אורפלי זצ\"ל",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220071884",
@@ -541,7 +541,7 @@
 	},
 	{
 		"id" : 240,
-		"customer_name" : "טמבור בע&quot;מ",
+		"customer_name" : "טמבור בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220067271",
@@ -559,7 +559,7 @@
 	},
 	{
 		"id" : 241,
-		"customer_name" : "שלום את נתן בע&quot;מ",
+		"customer_name" : "שלום את נתן בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220070838",
@@ -577,7 +577,7 @@
 	},
 	{
 		"id" : 242,
-		"customer_name" : "דלק חברת הדלק הישראלית בע&quot;מ",
+		"customer_name" : "דלק חברת הדלק הישראלית בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220071946",
@@ -595,7 +595,7 @@
 	},
 	{
 		"id" : 243,
-		"customer_name" : "אלקטרוסטאר שווק (1987) בע&quot;מ",
+		"customer_name" : "אלקטרוסטאר שווק (1987) בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220070992",
@@ -631,7 +631,7 @@
 	},
 	{
 		"id" : 246,
-		"customer_name" : "בית אקשטיין בע&quot;מ",
+		"customer_name" : "בית אקשטיין בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220070216",
@@ -649,7 +649,7 @@
 	},
 	{
 		"id" : 247,
-		"customer_name" : "ישר ניר שיווק ומכירות בע&quot;מ",
+		"customer_name" : "ישר ניר שיווק ומכירות בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220072257",
@@ -667,7 +667,7 @@
 	},
 	{
 		"id" : 249,
-		"customer_name" : "פלג הגליל החברה האיזורית למיים וביוב בע&quot;מ",
+		"customer_name" : "פלג הגליל החברה האיזורית למיים וביוב בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220072064",
@@ -685,7 +685,7 @@
 	},
 	{
 		"id" : 253,
-		"customer_name" : "קיו.איי.אס ישראל בע&quot;מ",
+		"customer_name" : "קיו.איי.אס ישראל בע\"מ",
 		"fortigate_type" : null,
 		"egedType" : "Bdesk",
 		"eged" : "220071062",
@@ -703,7 +703,7 @@
 	},
 	{
 		"id" : 254,
-		"customer_name" : "בזק און ליין בע&quot;מ",
+		"customer_name" : "בזק און ליין בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220069131",
@@ -721,7 +721,7 @@
 	},
 	{
 		"id" : 256,
-		"customer_name" : "ל. לוי נדל&quot;ן בע&quot;מ",
+		"customer_name" : "ל. לוי נדל\"ן בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220070475",
@@ -739,7 +739,7 @@
 	},
 	{
 		"id" : 260,
-		"customer_name" : "סאלח דאבח ובניו בע&quot;מ",
+		"customer_name" : "סאלח דאבח ובניו בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220064418",
@@ -757,7 +757,7 @@
 	},
 	{
 		"id" : 261,
-		"customer_name" : "טמבור בע&quot;מ",
+		"customer_name" : "טמבור בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220067271",
@@ -775,7 +775,7 @@
 	},
 	{
 		"id" : 263,
-		"customer_name" : "סמל פרפקטו בע&quot;מ",
+		"customer_name" : "סמל פרפקטו בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072580",
@@ -793,7 +793,7 @@
 	},
 	{
 		"id" : 264,
-		"customer_name" : "אליה נבטי סוכנות לביטוח (2014) בע&quot;מ",
+		"customer_name" : "אליה נבטי סוכנות לביטוח (2014) בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220071679",
@@ -811,7 +811,7 @@
 	},
 	{
 		"id" : 265,
-		"customer_name" : "חב&#39; למשק וכלכלה של השלטון המקומי בע&quot;מ",
+		"customer_name" : "חב&#39; למשק וכלכלה של השלטון המקומי בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220070982",
@@ -824,12 +824,12 @@
 		"status" : 1,
 		"line_code" : "03-6164569",
 		"installation_status" : 0,
-		"installation_remarks" : "קו BIZNET 03-6164569 50/5 עם FG60D מק&quot;ט 122681 + TG670.\r\nאיש קשר שי 050-9339208. תואם ל17/3 בין 11:00-14:00.",
+		"installation_remarks" : "קו BIZNET 03-6164569 50/5 עם FG60D מק\"ט 122681 + TG670.\r\nאיש קשר שי 050-9339208. תואם ל17/3 בין 11:00-14:00.",
 		"Script_file" : null
 	},
 	{
 		"id" : 266,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ",
 		"fortigate_type" : "",
 		"egedType" : "Bdesk",
 		"eged" : "220070712",
@@ -847,7 +847,7 @@
 	},
 	{
 		"id" : 269,
-		"customer_name" : "סמל פרפקטו בע&quot;מ",
+		"customer_name" : "סמל פרפקטו בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072580",
@@ -865,7 +865,7 @@
 	},
 	{
 		"id" : 270,
-		"customer_name" : "טקדו בע&quot;מ",
+		"customer_name" : "טקדו בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220071796",
@@ -883,7 +883,7 @@
 	},
 	{
 		"id" : 272,
-		"customer_name" : "וויסבירגר בע&quot;מ",
+		"customer_name" : "וויסבירגר בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072582",
@@ -937,7 +937,7 @@
 	},
 	{
 		"id" : 281,
-		"customer_name" : "קיו.איי.אס ישראל בע&quot;מ",
+		"customer_name" : "קיו.איי.אס ישראל בע\"מ",
 		"fortigate_type" : "240D",
 		"egedType" : "Bdesk",
 		"eged" : "220071062",
@@ -955,7 +955,7 @@
 	},
 	{
 		"id" : 282,
-		"customer_name" : "טן - חברה לדלק בע&quot;מ",
+		"customer_name" : "טן - חברה לדלק בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220024307",
@@ -973,7 +973,7 @@
 	},
 	{
 		"id" : 284,
-		"customer_name" : "טמבור בע&quot;מ",
+		"customer_name" : "טמבור בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220067271",
@@ -991,7 +991,7 @@
 	},
 	{
 		"id" : 285,
-		"customer_name" : "גלובוס מקס בע&quot;מ",
+		"customer_name" : "גלובוס מקס בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220067757",
@@ -1009,7 +1009,7 @@
 	},
 	{
 		"id" : 286,
-		"customer_name" : "מגנוס איתור וחילוץ בינלאומי בע&quot;מ",
+		"customer_name" : "מגנוס איתור וחילוץ בינלאומי בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072823",
@@ -1027,7 +1027,7 @@
 	},
 	{
 		"id" : 287,
-		"customer_name" : "גלובוס מקס בע&quot;מ",
+		"customer_name" : "גלובוס מקס בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220067763",
@@ -1045,7 +1045,7 @@
 	},
 	{
 		"id" : 288,
-		"customer_name" : "חב&#39; מוסדות חנוך ותרבות רחובות בע&quot;מ רשת מתנ&quot;סי",
+		"customer_name" : "חב&#39; מוסדות חנוך ותרבות רחובות בע\"מ רשת מתנ\"סי",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220072703",
@@ -1063,7 +1063,7 @@
 	},
 	{
 		"id" : 289,
-		"customer_name" : "טקיפי בע&quot;מ",
+		"customer_name" : "טקיפי בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072951",
@@ -1081,7 +1081,7 @@
 	},
 	{
 		"id" : 290,
-		"customer_name" : "רדיו ללא הפסקה בע&quot;מ",
+		"customer_name" : "רדיו ללא הפסקה בע\"מ",
 		"fortigate_type" : null,
 		"egedType" : "Bdesk",
 		"eged" : "220072262",
@@ -1099,7 +1099,7 @@
 	},
 	{
 		"id" : 293,
-		"customer_name" : "קמדיס בע&quot;מ",
+		"customer_name" : "קמדיס בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220072724",
@@ -1117,7 +1117,7 @@
 	},
 	{
 		"id" : 294,
-		"customer_name" : "א. עובדיה ביצוע עבודות בע&quot;מ",
+		"customer_name" : "א. עובדיה ביצוע עבודות בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072159",
@@ -1135,7 +1135,7 @@
 	},
 	{
 		"id" : 295,
-		"customer_name" : "טקיפי בע&quot;מ",
+		"customer_name" : "טקיפי בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072951",
@@ -1153,7 +1153,7 @@
 	},
 	{
 		"id" : 296,
-		"customer_name" : "אדאקטיב בע&quot;מ",
+		"customer_name" : "אדאקטיב בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220072492",
@@ -1171,7 +1171,7 @@
 	},
 	{
 		"id" : 298,
-		"customer_name" : "וורק ספייס בע&quot;מ",
+		"customer_name" : "וורק ספייס בע\"מ",
 		"fortigate_type" : null,
 		"egedType" : "Bdesk",
 		"eged" : "220072548",
@@ -1189,7 +1189,7 @@
 	},
 	{
 		"id" : 300,
-		"customer_name" : "צבי כהן אקולוגיה בע&quot;מ",
+		"customer_name" : "צבי כהן אקולוגיה בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220056466",
@@ -1207,7 +1207,7 @@
 	},
 	{
 		"id" : 301,
-		"customer_name" : "ארגון נכי צה&quot;ל",
+		"customer_name" : "ארגון נכי צה\"ל",
 		"fortigate_type" : "100D",
 		"egedType" : "Bdesk",
 		"eged" : "220050072",
@@ -1225,7 +1225,7 @@
 	},
 	{
 		"id" : 302,
-		"customer_name" : "ל. לוי נדל&quot;ן בע&quot;מ",
+		"customer_name" : "ל. לוי נדל\"ן בע\"מ",
 		"fortigate_type" : "90D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220070475",
@@ -1243,7 +1243,7 @@
 	},
 	{
 		"id" : 303,
-		"customer_name" : "צבי כהן אקולוגיה בע&quot;מ",
+		"customer_name" : "צבי כהן אקולוגיה בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220056466",
@@ -1261,7 +1261,7 @@
 	},
 	{
 		"id" : 304,
-		"customer_name" : "רדיו ללא הפסקה בע&quot;מ",
+		"customer_name" : "רדיו ללא הפסקה בע\"מ",
 		"fortigate_type" : "100D",
 		"egedType" : "Bdesk",
 		"eged" : "220072262",
@@ -1279,7 +1279,7 @@
 	},
 	{
 		"id" : 307,
-		"customer_name" : "איי.פי.ג&#39;י. אינטרנט קפיטל בע&quot;מ",
+		"customer_name" : "איי.פי.ג&#39;י. אינטרנט קפיטל בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220073087",
@@ -1297,7 +1297,7 @@
 	},
 	{
 		"id" : 308,
-		"customer_name" : "סמל פרפקטו בע&quot;מ",
+		"customer_name" : "סמל פרפקטו בע\"מ",
 		"fortigate_type" : "",
 		"egedType" : "Bdesk",
 		"eged" : "220072580",
@@ -1315,7 +1315,7 @@
 	},
 	{
 		"id" : 309,
-		"customer_name" : "מכון נועם בע&quot;מ",
+		"customer_name" : "מכון נועם בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220070980",
@@ -1333,7 +1333,7 @@
 	},
 	{
 		"id" : 310,
-		"customer_name" : "תירוש (1998) הוצאה לאור בע&quot;מ",
+		"customer_name" : "תירוש (1998) הוצאה לאור בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220072933",
@@ -1351,7 +1351,7 @@
 	},
 	{
 		"id" : 311,
-		"customer_name" : "א.פ. סוכנות לביטוח (2010) בע&quot;מ",
+		"customer_name" : "א.פ. סוכנות לביטוח (2010) בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220073295",
@@ -1369,7 +1369,7 @@
 	},
 	{
 		"id" : 312,
-		"customer_name" : "פולץ שירותי רכב בע&quot;מ",
+		"customer_name" : "פולץ שירותי רכב בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220073167",
@@ -1387,7 +1387,7 @@
 	},
 	{
 		"id" : 314,
-		"customer_name" : "פאר לי בע&quot;מ",
+		"customer_name" : "פאר לי בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220073548",
@@ -1405,7 +1405,7 @@
 	},
 	{
 		"id" : 317,
-		"customer_name" : "צבי כהן אקולוגיה בע&quot;מ",
+		"customer_name" : "צבי כהן אקולוגיה בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220056466",
@@ -1441,7 +1441,7 @@
 	},
 	{
 		"id" : 319,
-		"customer_name" : "מגנוס איתור וחילוץ בינלאומי בע&quot;מ",
+		"customer_name" : "מגנוס איתור וחילוץ בינלאומי בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220072823",
@@ -1459,7 +1459,7 @@
 	},
 	{
 		"id" : 321,
-		"customer_name" : "ארגון נכי צה&quot;ל",
+		"customer_name" : "ארגון נכי צה\"ל",
 		"fortigate_type" : "100D",
 		"egedType" : "Bdesk",
 		"eged" : "220050072",
@@ -1477,7 +1477,7 @@
 	},
 	{
 		"id" : 322,
-		"customer_name" : "גיאוקרטוגרפיה בע&quot;מ",
+		"customer_name" : "גיאוקרטוגרפיה בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220073631",
@@ -1495,7 +1495,7 @@
 	},
 	{
 		"id" : 325,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ",
 		"fortigate_type" : "240D",
 		"egedType" : "Bdesk",
 		"eged" : "220073785",
@@ -1513,7 +1513,7 @@
 	},
 	{
 		"id" : 326,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ",
 		"fortigate_type" : "240D",
 		"egedType" : "Bdesk",
 		"eged" : "220073784",
@@ -1531,7 +1531,7 @@
 	},
 	{
 		"id" : 328,
-		"customer_name" : "כהן את כהן איכויות סוכנות לביטוח (2015) בע&quot;מ",
+		"customer_name" : "כהן את כהן איכויות סוכנות לביטוח (2015) בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220073805",
@@ -1549,7 +1549,7 @@
 	},
 	{
 		"id" : 329,
-		"customer_name" : "גיאוקרטוגרפיה בע&quot;מ",
+		"customer_name" : "גיאוקרטוגרפיה בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220073631",
@@ -1567,7 +1567,7 @@
 	},
 	{
 		"id" : 331,
-		"customer_name" : "סטודיו סי בע&quot;מ",
+		"customer_name" : "סטודיו סי בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220073901",
@@ -1585,7 +1585,7 @@
 	},
 	{
 		"id" : 332,
-		"customer_name" : "ל. לוי נדל&quot;ן בע&quot;מ",
+		"customer_name" : "ל. לוי נדל\"ן בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220070475",
@@ -1603,7 +1603,7 @@
 	},
 	{
 		"id" : 333,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ",
 		"fortigate_type" : "240D",
 		"egedType" : "Bdesk",
 		"eged" : "220070725",
@@ -1621,7 +1621,7 @@
 	},
 	{
 		"id" : 334,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ",
 		"fortigate_type" : "200D",
 		"egedType" : "Bdesk",
 		"eged" : "220070727",
@@ -1639,7 +1639,7 @@
 	},
 	{
 		"id" : 335,
-		"customer_name" : "אימג&#39;ן-מובייל אוגמנסד ריאליטי בע&quot;מ",
+		"customer_name" : "אימג&#39;ן-מובייל אוגמנסד ריאליטי בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220073924",
@@ -1711,7 +1711,7 @@
 	},
 	{
 		"id" : 342,
-		"customer_name" : "ל.מ. שירותי כח אדם בע&quot;מ",
+		"customer_name" : "ל.מ. שירותי כח אדם בע\"מ",
 		"fortigate_type" : "30D",
 		"egedType" : "Bdesk",
 		"eged" : "220073261",
@@ -1729,7 +1729,7 @@
 	},
 	{
 		"id" : 343,
-		"customer_name" : "ד.בר עקיבא מהנדסים יועצים בע&quot;מ",
+		"customer_name" : "ד.בר עקיבא מהנדסים יועצים בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220073808",
@@ -1747,7 +1747,7 @@
 	},
 	{
 		"id" : 344,
-		"customer_name" : "אפ.אמ.אר. מחשבים ותוכנה בע&quot;מ",
+		"customer_name" : "אפ.אמ.אר. מחשבים ותוכנה בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220073337",
@@ -1765,7 +1765,7 @@
 	},
 	{
 		"id" : 345,
-		"customer_name" : "אלביט מערכות בע&quot;מ",
+		"customer_name" : "אלביט מערכות בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220074443",
@@ -1819,7 +1819,7 @@
 	},
 	{
 		"id" : 348,
-		"customer_name" : "סידס סוכנות לביטוח (2004) בע&quot;מ",
+		"customer_name" : "סידס סוכנות לביטוח (2004) בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220073986",
@@ -1837,7 +1837,7 @@
 	},
 	{
 		"id" : 351,
-		"customer_name" : "אופנועית בע&quot;מ",
+		"customer_name" : "אופנועית בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220073903",
@@ -1855,7 +1855,7 @@
 	},
 	{
 		"id" : 352,
-		"customer_name" : "אופנועית בע&quot;מ",
+		"customer_name" : "אופנועית בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220073903",
@@ -1873,7 +1873,7 @@
 	},
 	{
 		"id" : 353,
-		"customer_name" : "אופנועית בע&quot;מ",
+		"customer_name" : "אופנועית בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220073903",
@@ -1891,7 +1891,7 @@
 	},
 	{
 		"id" : 354,
-		"customer_name" : "צ.מ.ח המרמן בע&quot;מ",
+		"customer_name" : "צ.מ.ח המרמן בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220074732",
@@ -1909,7 +1909,7 @@
 	},
 	{
 		"id" : 356,
-		"customer_name" : "לוכסמבורג תעשיות בע&quot;מ",
+		"customer_name" : "לוכסמבורג תעשיות בע\"מ",
 		"fortigate_type" : null,
 		"egedType" : "Bdesk",
 		"eged" : "220071007",
@@ -1927,7 +1927,7 @@
 	},
 	{
 		"id" : 357,
-		"customer_name" : "משרד הבטחון משב&quot;ח",
+		"customer_name" : "משרד הבטחון משב\"ח",
 		"fortigate_type" : "100D",
 		"egedType" : "Bdesk",
 		"eged" : "220061420",
@@ -1945,7 +1945,7 @@
 	},
 	{
 		"id" : 359,
-		"customer_name" : "וויסבירגר בע&quot;מ",
+		"customer_name" : "וויסבירגר בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220074841",
@@ -1963,7 +1963,7 @@
 	},
 	{
 		"id" : 363,
-		"customer_name" : "אדום יו.קיי. בע&quot;מ",
+		"customer_name" : "אדום יו.קיי. בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220074874",
@@ -1999,7 +1999,7 @@
 	},
 	{
 		"id" : 371,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220075517",
@@ -2017,7 +2017,7 @@
 	},
 	{
 		"id" : 372,
-		"customer_name" : "ניביט תקשורת מחשבים (1989) בע&quot;מ",
+		"customer_name" : "ניביט תקשורת מחשבים (1989) בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220070972",
@@ -2053,7 +2053,7 @@
 	},
 	{
 		"id" : 374,
-		"customer_name" : "אפקון א.ב. אנרגית רוח בע&quot;מ",
+		"customer_name" : "אפקון א.ב. אנרגית רוח בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220062560",
@@ -2071,7 +2071,7 @@
 	},
 	{
 		"id" : 375,
-		"customer_name" : "אפקון א.ב. אנרגית רוח בע&quot;מ",
+		"customer_name" : "אפקון א.ב. אנרגית רוח בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220062560",
@@ -2089,7 +2089,7 @@
 	},
 	{
 		"id" : 376,
-		"customer_name" : "אפקון א.ב. אנרגית רוח בע&quot;מ",
+		"customer_name" : "אפקון א.ב. אנרגית רוח בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220062560",
@@ -2107,7 +2107,7 @@
 	},
 	{
 		"id" : 377,
-		"customer_name" : "ישראכרט בע&quot;מ",
+		"customer_name" : "ישראכרט בע\"מ",
 		"fortigate_type" : "300D",
 		"egedType" : "Bdesk",
 		"eged" : "220070644",
@@ -2125,7 +2125,7 @@
 	},
 	{
 		"id" : 378,
-		"customer_name" : "רוטס טרבל וטורס בע&quot;מ",
+		"customer_name" : "רוטס טרבל וטורס בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220075643",
@@ -2143,7 +2143,7 @@
 	},
 	{
 		"id" : 379,
-		"customer_name" : "בלאק קיוב בע&quot;מ",
+		"customer_name" : "בלאק קיוב בע\"מ",
 		"fortigate_type" : "100D",
 		"egedType" : "Bdesk",
 		"eged" : "220074626",
@@ -2215,7 +2215,7 @@
 	},
 	{
 		"id" : 384,
-		"customer_name" : "מובייל או די טי בע&quot;מ",
+		"customer_name" : "מובייל או די טי בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220076214",
@@ -2233,7 +2233,7 @@
 	},
 	{
 		"id" : 385,
-		"customer_name" : "סבן יעקב ציוד וחומרי בנין בע&quot;מ",
+		"customer_name" : "סבן יעקב ציוד וחומרי בנין בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220075760",
@@ -2269,7 +2269,7 @@
 	},
 	{
 		"id" : 391,
-		"customer_name" : "חניוני מאיה בע&quot;מ",
+		"customer_name" : "חניוני מאיה בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220076322",
@@ -2287,7 +2287,7 @@
 	},
 	{
 		"id" : 394,
-		"customer_name" : "שפע זכיונות בע&quot;מ",
+		"customer_name" : "שפע זכיונות בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220011687",
@@ -2305,7 +2305,7 @@
 	},
 	{
 		"id" : 395,
-		"customer_name" : "אופורטוניטיס וורלד וויד בע&quot;מ",
+		"customer_name" : "אופורטוניטיס וורלד וויד בע\"מ",
 		"fortigate_type" : null,
 		"egedType" : "Bdesk",
 		"eged" : "220075375",
@@ -2341,7 +2341,7 @@
 	},
 	{
 		"id" : 397,
-		"customer_name" : "נזר אהרון בני ברק - ע&quot;ש ר&#39; אהרון אורפלי זצ&quot;ל",
+		"customer_name" : "נזר אהרון בני ברק - ע\"ש ר&#39; אהרון אורפלי זצ\"ל",
 		"fortigate_type" : "100D",
 		"egedType" : "Bdesk",
 		"eged" : "220075818",
@@ -2359,7 +2359,7 @@
 	},
 	{
 		"id" : 398,
-		"customer_name" : "קולורייט בע&quot;מ",
+		"customer_name" : "קולורייט בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220076405",
@@ -2377,7 +2377,7 @@
 	},
 	{
 		"id" : 400,
-		"customer_name" : "איתניס חברה לשיווק בע&quot;מ",
+		"customer_name" : "איתניס חברה לשיווק בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220074629",
@@ -2395,7 +2395,7 @@
 	},
 	{
 		"id" : 401,
-		"customer_name" : "קבוצת אורון אחזקות והשקעות בע&quot;מ",
+		"customer_name" : "קבוצת אורון אחזקות והשקעות בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220076009",
@@ -2413,7 +2413,7 @@
 	},
 	{
 		"id" : 402,
-		"customer_name" : "בית מר&quot;ן (ע&quot;ר)",
+		"customer_name" : "בית מר\"ן (ע\"ר)",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220075787",
@@ -2449,7 +2449,7 @@
 	},
 	{
 		"id" : 404,
-		"customer_name" : "מור-המכון למידע רפואי בע&quot;מ",
+		"customer_name" : "מור-המכון למידע רפואי בע\"מ",
 		"fortigate_type" : "200D",
 		"egedType" : "Bdesk",
 		"eged" : "220074849",
@@ -2467,7 +2467,7 @@
 	},
 	{
 		"id" : 407,
-		"customer_name" : "איתניס חברה לשיווק בע&quot;מ",
+		"customer_name" : "איתניס חברה לשיווק בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220074629",
@@ -2503,7 +2503,7 @@
 	},
 	{
 		"id" : 411,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ",
 		"fortigate_type" : "200D",
 		"egedType" : "Bdesk",
 		"eged" : "220076424",
@@ -2521,7 +2521,7 @@
 	},
 	{
 		"id" : 413,
-		"customer_name" : "חברת קבוצת השומרים שמירה וביטחון בע&quot;מ",
+		"customer_name" : "חברת קבוצת השומרים שמירה וביטחון בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220075809",
@@ -2539,7 +2539,7 @@
 	},
 	{
 		"id" : 414,
-		"customer_name" : "בריקסטון כספות בע&quot;מ",
+		"customer_name" : "בריקסטון כספות בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220076732",
@@ -2557,7 +2557,7 @@
 	},
 	{
 		"id" : 417,
-		"customer_name" : "וקסמן-גוברין (נדן) חברה להנדסה בע&quot;מ",
+		"customer_name" : "וקסמן-גוברין (נדן) חברה להנדסה בע\"מ",
 		"fortigate_type" : "240D",
 		"egedType" : "Bdesk",
 		"eged" : "220075560",
@@ -2611,7 +2611,7 @@
 	},
 	{
 		"id" : 421,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ",
 		"fortigate_type" : "300D",
 		"egedType" : "Bdesk",
 		"eged" : "220076120",
@@ -2629,7 +2629,7 @@
 	},
 	{
 		"id" : 422,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ",
 		"fortigate_type" : "300C",
 		"egedType" : "Bdesk",
 		"eged" : "220076120",
@@ -2647,7 +2647,7 @@
 	},
 	{
 		"id" : 424,
-		"customer_name" : "ביתא - בית קפה בע&quot;מ",
+		"customer_name" : "ביתא - בית קפה בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220077502",
@@ -2683,7 +2683,7 @@
 	},
 	{
 		"id" : 426,
-		"customer_name" : "לוכסמבורג תעשיות בע&quot;מ",
+		"customer_name" : "לוכסמבורג תעשיות בע\"מ",
 		"fortigate_type" : "140D",
 		"egedType" : "Bdesk",
 		"eged" : "220071001",
@@ -2701,7 +2701,7 @@
 	},
 	{
 		"id" : 427,
-		"customer_name" : "ג&#39;יי.בי.סי-ג&#39;רוזלם ביזנס סנטר (2010) בע&quot;מ",
+		"customer_name" : "ג&#39;יי.בי.סי-ג&#39;רוזלם ביזנס סנטר (2010) בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220077911",
@@ -2719,7 +2719,7 @@
 	},
 	{
 		"id" : 428,
-		"customer_name" : "אקספוגיימס בע&quot;מ",
+		"customer_name" : "אקספוגיימס בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220077808",
@@ -2755,7 +2755,7 @@
 	},
 	{
 		"id" : 431,
-		"customer_name" : "טריפל אינזו סחר בינלאומי בע&quot;מ",
+		"customer_name" : "טריפל אינזו סחר בינלאומי בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220078086",
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"id" : 432,
-		"customer_name" : "מייג&#39;ור 22 בע&quot;מ",
+		"customer_name" : "מייג&#39;ור 22 בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220077351",
@@ -2791,7 +2791,7 @@
 	},
 	{
 		"id" : 433,
-		"customer_name" : "וויז גרופ מדיה בע&quot;מ",
+		"customer_name" : "וויז גרופ מדיה בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220078418",
@@ -2809,7 +2809,7 @@
 	},
 	{
 		"id" : 436,
-		"customer_name" : "וד(ע&quot;ר) עמותת הספורט העירונית אשד",
+		"customer_name" : "וד(ע\"ר) עמותת הספורט העירונית אשד",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078293",
@@ -2845,7 +2845,7 @@
 	},
 	{
 		"id" : 441,
-		"customer_name" : "שפע זכיונות בע&quot;מ",
+		"customer_name" : "שפע זכיונות בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078519",
@@ -2881,7 +2881,7 @@
 	},
 	{
 		"id" : 445,
-		"customer_name" : "שפע זכיונות בע&quot;מ",
+		"customer_name" : "שפע זכיונות בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078519",
@@ -2899,7 +2899,7 @@
 	},
 	{
 		"id" : 446,
-		"customer_name" : "רעות שדרות (ע&quot;ר)",
+		"customer_name" : "רעות שדרות (ע\"ר)",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078497",
@@ -2917,7 +2917,7 @@
 	},
 	{
 		"id" : 447,
-		"customer_name" : "בית חב&quot;ד",
+		"customer_name" : "בית חב\"ד",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220078652",
@@ -2935,7 +2935,7 @@
 	},
 	{
 		"id" : 449,
-		"customer_name" : "אורטה מדיקל בע&quot;מ",
+		"customer_name" : "אורטה מדיקל בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220077845",
@@ -2953,7 +2953,7 @@
 	},
 	{
 		"id" : 450,
-		"customer_name" : "שפע זכיונות בע&quot;מ",
+		"customer_name" : "שפע זכיונות בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078517",
@@ -2989,7 +2989,7 @@
 	},
 	{
 		"id" : 452,
-		"customer_name" : "מ.צ.ב. מרכז ציוד לבנין בע&quot;מ",
+		"customer_name" : "מ.צ.ב. מרכז ציוד לבנין בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220078853",
@@ -3025,7 +3025,7 @@
 	},
 	{
 		"id" : 454,
-		"customer_name" : "ראונד רובין בע&quot;מ",
+		"customer_name" : "ראונד רובין בע\"מ",
 		"fortigate_type" : "140D",
 		"egedType" : "Bdesk",
 		"eged" : "220078333",
@@ -3043,7 +3043,7 @@
 	},
 	{
 		"id" : 455,
-		"customer_name" : "רעות שדרות (ע&quot;ר)",
+		"customer_name" : "רעות שדרות (ע\"ר)",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078497",
@@ -3061,7 +3061,7 @@
 	},
 	{
 		"id" : 456,
-		"customer_name" : "בית בלב בע&quot;מ",
+		"customer_name" : "בית בלב בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220078090",
@@ -3079,7 +3079,7 @@
 	},
 	{
 		"id" : 458,
-		"customer_name" : "ארגנטולס בע&quot;מ",
+		"customer_name" : "ארגנטולס בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220078984",
@@ -3097,7 +3097,7 @@
 	},
 	{
 		"id" : 461,
-		"customer_name" : "קיי לוג&#39;יק בע&quot;מ",
+		"customer_name" : "קיי לוג&#39;יק בע\"מ",
 		"fortigate_type" : "140D",
 		"egedType" : "Bdesk",
 		"eged" : "220078810",
@@ -3115,7 +3115,7 @@
 	},
 	{
 		"id" : 462,
-		"customer_name" : "משהב חברה לשיכון בנין ופיתוח בע&quot;מ",
+		"customer_name" : "משהב חברה לשיכון בנין ופיתוח בע\"מ",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220077564",
@@ -3133,7 +3133,7 @@
 	},
 	{
 		"id" : 463,
-		"customer_name" : "תפרון בע&quot;מ",
+		"customer_name" : "תפרון בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220079639",
@@ -3169,7 +3169,7 @@
 	},
 	{
 		"id" : 465,
-		"customer_name" : "אי-אונליין קפיטל (אי.או.סי) בע&quot;מ",
+		"customer_name" : "אי-אונליין קפיטל (אי.או.סי) בע\"מ",
 		"fortigate_type" : "140D",
 		"egedType" : "Bdesk",
 		"eged" : "220078326",
@@ -3205,7 +3205,7 @@
 	},
 	{
 		"id" : 468,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ",
 		"fortigate_type" : "50E",
 		"egedType" : "Bdesk",
 		"eged" : "220079924",
@@ -3223,7 +3223,7 @@
 	},
 	{
 		"id" : 470,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ",
 		"fortigate_type" : "50E",
 		"egedType" : "Bdesk",
 		"eged" : "220079927",
@@ -3241,7 +3241,7 @@
 	},
 	{
 		"id" : 471,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ",
 		"fortigate_type" : "50E",
 		"egedType" : "Bdesk",
 		"eged" : "220079928",
@@ -3277,7 +3277,7 @@
 	},
 	{
 		"id" : 473,
-		"customer_name" : "מ.נ.מ הכל לתעשיה בע&quot;מ",
+		"customer_name" : "מ.נ.מ הכל לתעשיה בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220079784",
@@ -3295,7 +3295,7 @@
 	},
 	{
 		"id" : 474,
-		"customer_name" : "מולאייב גדעון בע&quot;מ-אלוף ספורט",
+		"customer_name" : "מולאייב גדעון בע\"מ-אלוף ספורט",
 		"fortigate_type" : "92D",
 		"egedType" : "Bdesk",
 		"eged" : "220079780",
@@ -3313,7 +3313,7 @@
 	},
 	{
 		"id" : 476,
-		"customer_name" : "לייטביטס לאבס בע&quot;מ",
+		"customer_name" : "לייטביטס לאבס בע\"מ",
 		"fortigate_type" : "92D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220079752",
@@ -3367,7 +3367,7 @@
 	},
 	{
 		"id" : 479,
-		"customer_name" : "טן חב&#39; לדלק- ב&quot;ש",
+		"customer_name" : "טן חב&#39; לדלק- ב\"ש",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220042885",
@@ -3385,7 +3385,7 @@
 	},
 	{
 		"id" : 480,
-		"customer_name" : "מור-המכון למידע רפואי בע&quot;מ",
+		"customer_name" : "מור-המכון למידע רפואי בע\"מ",
 		"fortigate_type" : "200D",
 		"egedType" : "Bdesk",
 		"eged" : "220074849",
@@ -3457,7 +3457,7 @@
 	},
 	{
 		"id" : 488,
-		"customer_name" : "אביגדור 22 בע&quot;מ",
+		"customer_name" : "אביגדור 22 בע\"מ",
 		"fortigate_type" : "60D WiFi",
 		"egedType" : "Bdesk",
 		"eged" : "220079742",
@@ -3475,7 +3475,7 @@
 	},
 	{
 		"id" : 492,
-		"customer_name" : "גובו מערכות מידע מקוון בע&quot;מ",
+		"customer_name" : "גובו מערכות מידע מקוון בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220080203",
@@ -3493,7 +3493,7 @@
 	},
 	{
 		"id" : 494,
-		"customer_name" : "גלובוס מקס בע&quot;מ",
+		"customer_name" : "גלובוס מקס בע\"מ",
 		"fortigate_type" : "60D",
 		"egedType" : "Bdesk",
 		"eged" : "220077204",
@@ -3511,7 +3511,7 @@
 	},
 	{
 		"id" : 495,
-		"customer_name" : "פלימן ביה&quot;ח ממשלתי למחלות ממושכות",
+		"customer_name" : "פלימן ביה\"ח ממשלתי למחלות ממושכות",
 		"fortigate_type" : "140D",
 		"egedType" : "Bdesk",
 		"eged" : "220080189",
@@ -3583,7 +3583,7 @@
 	},
 	{
 		"id" : 499,
-		"customer_name" : "בנק איגוד לישראל בע&quot;מ",
+		"customer_name" : "בנק איגוד לישראל בע\"מ",
 		"fortigate_type" : "140D",
 		"egedType" : "Bdesk",
 		"eged" : "220079719",
@@ -3655,7 +3655,7 @@
 	},
 	{
 		"id" : 505,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "453",
@@ -3673,7 +3673,7 @@
 	},
 	{
 		"id" : 506,
-		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע&quot;מ",
+		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע\"מ",
 		"fortigate_type" : "50E",
 		"egedType" : "Bdesk",
 		"eged" : "220079217",
@@ -3691,7 +3691,7 @@
 	},
 	{
 		"id" : 507,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "529",
@@ -3709,7 +3709,7 @@
 	},
 	{
 		"id" : 508,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "429",
@@ -3727,7 +3727,7 @@
 	},
 	{
 		"id" : 509,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "485",
@@ -3745,7 +3745,7 @@
 	},
 	{
 		"id" : 510,
-		"customer_name" : "טזורו בע&quot;מ ",
+		"customer_name" : "טזורו בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "464",
@@ -3781,7 +3781,7 @@
 	},
 	{
 		"id" : 512,
-		"customer_name" : "מנינט ניהול (1996) בע&quot;מ ",
+		"customer_name" : "מנינט ניהול (1996) בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "479",
@@ -3817,7 +3817,7 @@
 	},
 	{
 		"id" : 514,
-		"customer_name" : "טזורו בע&quot;מ ",
+		"customer_name" : "טזורו בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "464",
@@ -3835,7 +3835,7 @@
 	},
 	{
 		"id" : 515,
-		"customer_name" : "אחת שתיים שלוש מובייל בע&quot;מ ",
+		"customer_name" : "אחת שתיים שלוש מובייל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "340",
@@ -3853,7 +3853,7 @@
 	},
 	{
 		"id" : 516,
-		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע&quot;מ ",
+		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "747",
@@ -3871,7 +3871,7 @@
 	},
 	{
 		"id" : 517,
-		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע&quot;מ ",
+		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "747",
@@ -3889,7 +3889,7 @@
 	},
 	{
 		"id" : 518,
-		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע&quot;מ ",
+		"customer_name" : "מ.א.ר. חברה לאבחון רדיולוגי בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "747",
@@ -3907,7 +3907,7 @@
 	},
 	{
 		"id" : 519,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "538",
@@ -4015,7 +4015,7 @@
 	},
 	{
 		"id" : 525,
-		"customer_name" : "מוזס ניהול בע&quot;מ ",
+		"customer_name" : "מוזס ניהול בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "928",
@@ -4105,7 +4105,7 @@
 	},
 	{
 		"id" : 534,
-		"customer_name" : "המרכז הבריאותי לכף הרגל בע&quot;מ ",
+		"customer_name" : "המרכז הבריאותי לכף הרגל בע\"מ ",
 		"fortigate_type" : "92D",
 		"egedType" : "PM",
 		"eged" : "549",
@@ -4123,7 +4123,7 @@
 	},
 	{
 		"id" : 535,
-		"customer_name" : "צילומעתיק בע&quot;מ ",
+		"customer_name" : "צילומעתיק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1306",
@@ -4141,7 +4141,7 @@
 	},
 	{
 		"id" : 536,
-		"customer_name" : "רדיו קול רגע בע&quot;מ ",
+		"customer_name" : "רדיו קול רגע בע\"מ ",
 		"fortigate_type" : "140D",
 		"egedType" : "PM",
 		"eged" : "1082",
@@ -4177,7 +4177,7 @@
 	},
 	{
 		"id" : 541,
-		"customer_name" : "מפעלי אנקורי (1971) בע&quot;מ ",
+		"customer_name" : "מפעלי אנקורי (1971) בע\"מ ",
 		"fortigate_type" : "140D",
 		"egedType" : "PM",
 		"eged" : "1129",
@@ -4213,7 +4213,7 @@
 	},
 	{
 		"id" : 543,
-		"customer_name" : "קורטיקה בע&quot;מ ",
+		"customer_name" : "קורטיקה בע\"מ ",
 		"fortigate_type" : "140D",
 		"egedType" : "PM",
 		"eged" : "1094",
@@ -4231,7 +4231,7 @@
 	},
 	{
 		"id" : 545,
-		"customer_name" : "באלאנס קלאב בע&quot;מ ",
+		"customer_name" : "באלאנס קלאב בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1156",
@@ -4249,7 +4249,7 @@
 	},
 	{
 		"id" : 546,
-		"customer_name" : "אי-אונליין קפיטל (אי.או.סי) בע&quot;מ ",
+		"customer_name" : "אי-אונליין קפיטל (אי.או.סי) בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "1048",
@@ -4267,7 +4267,7 @@
 	},
 	{
 		"id" : 548,
-		"customer_name" : "מוזס ניהול בע&quot;מ ",
+		"customer_name" : "מוזס ניהול בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "928",
@@ -4285,7 +4285,7 @@
 	},
 	{
 		"id" : 549,
-		"customer_name" : "ברינקס (ישראל) בע&quot;מ ",
+		"customer_name" : "ברינקס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "559",
@@ -4303,7 +4303,7 @@
 	},
 	{
 		"id" : 550,
-		"customer_name" : "ברינקס (ישראל) בע&quot;מ ",
+		"customer_name" : "ברינקס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "558",
@@ -4321,7 +4321,7 @@
 	},
 	{
 		"id" : 551,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4339,7 +4339,7 @@
 	},
 	{
 		"id" : 552,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4357,7 +4357,7 @@
 	},
 	{
 		"id" : 553,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4375,7 +4375,7 @@
 	},
 	{
 		"id" : 554,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4393,7 +4393,7 @@
 	},
 	{
 		"id" : 555,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4411,7 +4411,7 @@
 	},
 	{
 		"id" : 556,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4429,7 +4429,7 @@
 	},
 	{
 		"id" : 557,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ ",
 		"fortigate_type" : "300D",
 		"egedType" : "PM",
 		"eged" : "526",
@@ -4447,7 +4447,7 @@
 	},
 	{
 		"id" : 558,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4573,7 +4573,7 @@
 	},
 	{
 		"id" : 566,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4591,7 +4591,7 @@
 	},
 	{
 		"id" : 567,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4609,7 +4609,7 @@
 	},
 	{
 		"id" : 568,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "758",
@@ -4627,7 +4627,7 @@
 	},
 	{
 		"id" : 569,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "760",
@@ -4645,7 +4645,7 @@
 	},
 	{
 		"id" : 570,
-		"customer_name" : "אופאל טכנולוגיות עתידיות בע&quot;מ ",
+		"customer_name" : "אופאל טכנולוגיות עתידיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "760",
@@ -4699,7 +4699,7 @@
 	},
 	{
 		"id" : 574,
-		"customer_name" : "מרכז הגליל סוכנות לביטוח בע&quot;מ ",
+		"customer_name" : "מרכז הגליל סוכנות לביטוח בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1160",
@@ -4879,7 +4879,7 @@
 	},
 	{
 		"id" : 584,
-		"customer_name" : "מרכז הגליל סוכנות לביטוח בע&quot;מ ",
+		"customer_name" : "מרכז הגליל סוכנות לביטוח בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1160",
@@ -4897,7 +4897,7 @@
 	},
 	{
 		"id" : 585,
-		"customer_name" : "פוינטר טלוקיישן בע&quot;מ ",
+		"customer_name" : "פוינטר טלוקיישן בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1982",
@@ -4915,7 +4915,7 @@
 	},
 	{
 		"id" : 587,
-		"customer_name" : "מור-המכון למידע רפואי בע&quot;מ ",
+		"customer_name" : "מור-המכון למידע רפואי בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "818",
@@ -4969,7 +4969,7 @@
 	},
 	{
 		"id" : 591,
-		"customer_name" : "בנק הפועלים בע&quot;מ ",
+		"customer_name" : "בנק הפועלים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2282",
@@ -4987,7 +4987,7 @@
 	},
 	{
 		"id" : 593,
-		"customer_name" : "מוזס ניהול בע&quot;מ ",
+		"customer_name" : "מוזס ניהול בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1981",
@@ -5005,7 +5005,7 @@
 	},
 	{
 		"id" : 597,
-		"customer_name" : "המועצה הדתית פ&quot;ת ",
+		"customer_name" : "המועצה הדתית פ\"ת ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2277",
@@ -5023,7 +5023,7 @@
 	},
 	{
 		"id" : 598,
-		"customer_name" : "פוינטר טלוקיישן בע&quot;מ ",
+		"customer_name" : "פוינטר טלוקיישן בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2352",
@@ -5041,7 +5041,7 @@
 	},
 	{
 		"id" : 599,
-		"customer_name" : "וקסמן-גוברין-שטרן ניהול פרוייקטים בע&quot;מ ",
+		"customer_name" : "וקסמן-גוברין-שטרן ניהול פרוייקטים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1493",
@@ -5347,7 +5347,7 @@
 	},
 	{
 		"id" : 616,
-		"customer_name" : "דה סטנלי וורקס ישראל בע&quot;מ ",
+		"customer_name" : "דה סטנלי וורקס ישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1202",
@@ -5365,7 +5365,7 @@
 	},
 	{
 		"id" : 617,
-		"customer_name" : "מ. יוחננוף ובניו (1988) בע&quot;מ ",
+		"customer_name" : "מ. יוחננוף ובניו (1988) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "469",
@@ -5383,7 +5383,7 @@
 	},
 	{
 		"id" : 618,
-		"customer_name" : "מ. יוחננוף ובניו (1988) בע&quot;מ ",
+		"customer_name" : "מ. יוחננוף ובניו (1988) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "469",
@@ -5401,7 +5401,7 @@
 	},
 	{
 		"id" : 619,
-		"customer_name" : "מ. יוחננוף ובניו (1988) בע&quot;מ ",
+		"customer_name" : "מ. יוחננוף ובניו (1988) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "469",
@@ -5419,7 +5419,7 @@
 	},
 	{
 		"id" : 620,
-		"customer_name" : "מ. יוחננוף ובניו (1988) בע&quot;מ ",
+		"customer_name" : "מ. יוחננוף ובניו (1988) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "469",
@@ -5437,7 +5437,7 @@
 	},
 	{
 		"id" : 621,
-		"customer_name" : "מ. יוחננוף ובניו (1988) בע&quot;מ ",
+		"customer_name" : "מ. יוחננוף ובניו (1988) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "469",
@@ -5455,7 +5455,7 @@
 	},
 	{
 		"id" : 622,
-		"customer_name" : "מ. יוחננוף ובניו (1988) בע&quot;מ ",
+		"customer_name" : "מ. יוחננוף ובניו (1988) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "469",
@@ -5473,7 +5473,7 @@
 	},
 	{
 		"id" : 623,
-		"customer_name" : "עמרם אברהם חברה לבנין בע&quot;מ ",
+		"customer_name" : "עמרם אברהם חברה לבנין בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2387",
@@ -5509,7 +5509,7 @@
 	},
 	{
 		"id" : 626,
-		"customer_name" : "ערבה פאוור בע&quot;מ ",
+		"customer_name" : "ערבה פאוור בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2603",
@@ -5563,7 +5563,7 @@
 	},
 	{
 		"id" : 630,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5581,7 +5581,7 @@
 	},
 	{
 		"id" : 631,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5599,7 +5599,7 @@
 	},
 	{
 		"id" : 632,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5617,7 +5617,7 @@
 	},
 	{
 		"id" : 633,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5635,7 +5635,7 @@
 	},
 	{
 		"id" : 636,
-		"customer_name" : "סופטיקס סקיוריטי בע&quot;מ ",
+		"customer_name" : "סופטיקס סקיוריטי בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2828",
@@ -5725,7 +5725,7 @@
 	},
 	{
 		"id" : 643,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5743,7 +5743,7 @@
 	},
 	{
 		"id" : 645,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5761,7 +5761,7 @@
 	},
 	{
 		"id" : 646,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5779,7 +5779,7 @@
 	},
 	{
 		"id" : 647,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5797,7 +5797,7 @@
 	},
 	{
 		"id" : 649,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5815,7 +5815,7 @@
 	},
 	{
 		"id" : 650,
-		"customer_name" : "אורבך הלוי אדריכלים מהנדסים בע&quot;מ ",
+		"customer_name" : "אורבך הלוי אדריכלים מהנדסים בע\"מ ",
 		"fortigate_type" : "92D",
 		"egedType" : "PM",
 		"eged" : "2505",
@@ -5833,7 +5833,7 @@
 	},
 	{
 		"id" : 651,
-		"customer_name" : "בנק הפועלים בע&quot;מ ",
+		"customer_name" : "בנק הפועלים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2527",
@@ -5851,7 +5851,7 @@
 	},
 	{
 		"id" : 652,
-		"customer_name" : "גלובוס מקס בע&quot;מ ",
+		"customer_name" : "גלובוס מקס בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2256",
@@ -5869,7 +5869,7 @@
 	},
 	{
 		"id" : 654,
-		"customer_name" : "טחנות קמח שטיבל ב&quot;ש בע&quot;מ ",
+		"customer_name" : "טחנות קמח שטיבל ב\"ש בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3014",
@@ -5887,7 +5887,7 @@
 	},
 	{
 		"id" : 655,
-		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע&quot;מ ",
+		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3002",
@@ -5905,7 +5905,7 @@
 	},
 	{
 		"id" : 656,
-		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע&quot;מ ",
+		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3002",
@@ -5923,7 +5923,7 @@
 	},
 	{
 		"id" : 657,
-		"customer_name" : "כרם הופעות בע&quot;מ ",
+		"customer_name" : "כרם הופעות בע\"מ ",
 		"fortigate_type" : "140D",
 		"egedType" : "PM",
 		"eged" : "3037",
@@ -5959,7 +5959,7 @@
 	},
 	{
 		"id" : 659,
-		"customer_name" : "פוטו סטודיו ניסים בע&quot;מ ",
+		"customer_name" : "פוטו סטודיו ניסים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1585",
@@ -5995,7 +5995,7 @@
 	},
 	{
 		"id" : 661,
-		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע&quot;מ ",
+		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3002",
@@ -6013,7 +6013,7 @@
 	},
 	{
 		"id" : 662,
-		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע&quot;מ ",
+		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3002",
@@ -6031,7 +6031,7 @@
 	},
 	{
 		"id" : 665,
-		"customer_name" : "ברינקס (ישראל) בע&quot;מ ",
+		"customer_name" : "ברינקס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "558",
@@ -6049,7 +6049,7 @@
 	},
 	{
 		"id" : 666,
-		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע&quot;מ ",
+		"customer_name" : "אלפנאר-לקידום תעסוקת ערבים בישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "2026",
@@ -6085,7 +6085,7 @@
 	},
 	{
 		"id" : 676,
-		"customer_name" : "קשר ספורט בע&quot;מ - מכבי חיפה-מועדון כדורגל ",
+		"customer_name" : "קשר ספורט בע\"מ - מכבי חיפה-מועדון כדורגל ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3121",
@@ -6103,7 +6103,7 @@
 	},
 	{
 		"id" : 677,
-		"customer_name" : "קבוצת אורון אחזקות והשקעות בע&quot;מ ",
+		"customer_name" : "קבוצת אורון אחזקות והשקעות בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3256",
@@ -6139,7 +6139,7 @@
 	},
 	{
 		"id" : 679,
-		"customer_name" : "שי- מגן מלגזות בע&quot;מ ",
+		"customer_name" : "שי- מגן מלגזות בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3369",
@@ -6157,7 +6157,7 @@
 	},
 	{
 		"id" : 680,
-		"customer_name" : "ביה&quot;ח שמואל הרופא (באר יעקב) ",
+		"customer_name" : "ביה\"ח שמואל הרופא (באר יעקב) ",
 		"fortigate_type" : "140D",
 		"egedType" : "PM",
 		"eged" : "3510",
@@ -6193,7 +6193,7 @@
 	},
 	{
 		"id" : 682,
-		"customer_name" : "זיק מובייל בע&quot;מ ",
+		"customer_name" : "זיק מובייל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3560",
@@ -6211,7 +6211,7 @@
 	},
 	{
 		"id" : 684,
-		"customer_name" : "זיק מובייל בע&quot;מ ",
+		"customer_name" : "זיק מובייל בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "3560",
@@ -6229,7 +6229,7 @@
 	},
 	{
 		"id" : 686,
-		"customer_name" : "מקור הפורמיקה בע&quot;מ ",
+		"customer_name" : "מקור הפורמיקה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3852",
@@ -6337,7 +6337,7 @@
 	},
 	{
 		"id" : 694,
-		"customer_name" : "בינת עסקים בע&quot;מ ",
+		"customer_name" : "בינת עסקים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4208",
@@ -6463,7 +6463,7 @@
 	},
 	{
 		"id" : 702,
-		"customer_name" : "קנפו כלימור אדריכלים בע&quot;מ ",
+		"customer_name" : "קנפו כלימור אדריכלים בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "4000",
@@ -6481,7 +6481,7 @@
 	},
 	{
 		"id" : 703,
-		"customer_name" : "סלע סוכנות לביטוח בע&quot;מ סלע סוכנויות",
+		"customer_name" : "סלע סוכנות לביטוח בע\"מ סלע סוכנויות",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3221",
@@ -6499,7 +6499,7 @@
 	},
 	{
 		"id" : 704,
-		"customer_name" : "סלע סוכנות לביטוח בע&quot;מ ",
+		"customer_name" : "סלע סוכנות לביטוח בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3221",
@@ -6517,7 +6517,7 @@
 	},
 	{
 		"id" : 705,
-		"customer_name" : "אמן ארגון ומדעי ניהול יועצים בע&quot;מ ",
+		"customer_name" : "אמן ארגון ומדעי ניהול יועצים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4102",
@@ -6535,7 +6535,7 @@
 	},
 	{
 		"id" : 706,
-		"customer_name" : "סופטימייז בע&quot;מ ",
+		"customer_name" : "סופטימייז בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4279",
@@ -6553,7 +6553,7 @@
 	},
 	{
 		"id" : 707,
-		"customer_name" : "האחים אבו עיאש בע&quot;מ ",
+		"customer_name" : "האחים אבו עיאש בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4105",
@@ -6571,7 +6571,7 @@
 	},
 	{
 		"id" : 708,
-		"customer_name" : "רשות שדות התעופה - רת&quot;מ חדש ",
+		"customer_name" : "רשות שדות התעופה - רת\"מ חדש ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4241",
@@ -6589,7 +6589,7 @@
 	},
 	{
 		"id" : 709,
-		"customer_name" : "ביה&quot;ח שמואל הרופא (באר יעקב) ",
+		"customer_name" : "ביה\"ח שמואל הרופא (באר יעקב) ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "3510",
@@ -6607,7 +6607,7 @@
 	},
 	{
 		"id" : 710,
-		"customer_name" : "ביה&quot;ח שמואל הרופא (באר יעקב) ",
+		"customer_name" : "ביה\"ח שמואל הרופא (באר יעקב) ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "3510",
@@ -6625,7 +6625,7 @@
 	},
 	{
 		"id" : 711,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4543",
@@ -6643,7 +6643,7 @@
 	},
 	{
 		"id" : 712,
-		"customer_name" : "באלאנס אנד פיטנס בע&quot;מ ",
+		"customer_name" : "באלאנס אנד פיטנס בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3452",
@@ -6661,7 +6661,7 @@
 	},
 	{
 		"id" : 714,
-		"customer_name" : "ישראכרט בע&quot;מ ",
+		"customer_name" : "ישראכרט בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "781",
@@ -6697,7 +6697,7 @@
 	},
 	{
 		"id" : 716,
-		"customer_name" : "ג&#39;יי.טי. ג&#39;י קבוצת טכנולוגיה בע&quot;מ ",
+		"customer_name" : "ג&#39;יי.טי. ג&#39;י קבוצת טכנולוגיה בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "4672",
@@ -6751,7 +6751,7 @@
 	},
 	{
 		"id" : 719,
-		"customer_name" : "סאמי נופי ובניו בע&quot;מ ",
+		"customer_name" : "סאמי נופי ובניו בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4773",
@@ -6769,7 +6769,7 @@
 	},
 	{
 		"id" : 720,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4677",
@@ -6787,7 +6787,7 @@
 	},
 	{
 		"id" : 721,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4677",
@@ -6805,7 +6805,7 @@
 	},
 	{
 		"id" : 722,
-		"customer_name" : "ריאו ביח&quot;ר לגלידות וממתקים בע&quot;מ ",
+		"customer_name" : "ריאו ביח\"ר לגלידות וממתקים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3314",
@@ -6823,7 +6823,7 @@
 	},
 	{
 		"id" : 723,
-		"customer_name" : "ריאו ביח&quot;ר לגלידות וממתקים בע&quot;מ ",
+		"customer_name" : "ריאו ביח\"ר לגלידות וממתקים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3314",
@@ -6841,7 +6841,7 @@
 	},
 	{
 		"id" : 724,
-		"customer_name" : "ריאו ביח&quot;ר לגלידות וממתקים בע&quot;מ ",
+		"customer_name" : "ריאו ביח\"ר לגלידות וממתקים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3314",
@@ -6859,7 +6859,7 @@
 	},
 	{
 		"id" : 725,
-		"customer_name" : "ריאו ביח&quot;ר לגלידות וממתקים בע&quot;מ ",
+		"customer_name" : "ריאו ביח\"ר לגלידות וממתקים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "3314",
@@ -6877,7 +6877,7 @@
 	},
 	{
 		"id" : 726,
-		"customer_name" : "האקר יו בע&quot;מ ",
+		"customer_name" : "האקר יו בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5043",
@@ -6895,7 +6895,7 @@
 	},
 	{
 		"id" : 727,
-		"customer_name" : "אדירם תעשיות מתכת בע&quot;מ ",
+		"customer_name" : "אדירם תעשיות מתכת בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5148",
@@ -6913,7 +6913,7 @@
 	},
 	{
 		"id" : 728,
-		"customer_name" : "האקר יו בע&quot;מ ",
+		"customer_name" : "האקר יו בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5043",
@@ -6931,7 +6931,7 @@
 	},
 	{
 		"id" : 729,
-		"customer_name" : "יוסי אברהמי עבודות הנדסה אזרחיות בע&quot;מ ",
+		"customer_name" : "יוסי אברהמי עבודות הנדסה אזרחיות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "4708",
@@ -6949,7 +6949,7 @@
 	},
 	{
 		"id" : 730,
-		"customer_name" : "הקולג&#39; התנכ&quot;י הבינלאומי בע&quot;מ ",
+		"customer_name" : "הקולג&#39; התנכ\"י הבינלאומי בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5057",
@@ -6967,7 +6967,7 @@
 	},
 	{
 		"id" : 731,
-		"customer_name" : "מועדון כדורגל-מכבי נתניה (2016) בע&quot;מ (חל&quot;ץ) ",
+		"customer_name" : "מועדון כדורגל-מכבי נתניה (2016) בע\"מ (חל\"ץ) ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4545",
@@ -7039,7 +7039,7 @@
 	},
 	{
 		"id" : 735,
-		"customer_name" : "יו.אם.איי. יוניברסל מוטורס ישראל בע&quot;מ ",
+		"customer_name" : "יו.אם.איי. יוניברסל מוטורס ישראל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "4757",
@@ -7057,7 +7057,7 @@
 	},
 	{
 		"id" : 736,
-		"customer_name" : "מ.אביב מפעלי בניה בע&quot;מ ",
+		"customer_name" : "מ.אביב מפעלי בניה בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5011",
@@ -7147,7 +7147,7 @@
 	},
 	{
 		"id" : 742,
-		"customer_name" : "בי.טי.איי. מרכז מתכות איכות בע&quot;מ ",
+		"customer_name" : "בי.טי.איי. מרכז מתכות איכות בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "4845",
@@ -7165,7 +7165,7 @@
 	},
 	{
 		"id" : 743,
-		"customer_name" : "בי.טי.איי. מרכז מתכות איכות בע&quot;מ ",
+		"customer_name" : "בי.טי.איי. מרכז מתכות איכות בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "4845",
@@ -7183,7 +7183,7 @@
 	},
 	{
 		"id" : 744,
-		"customer_name" : "באלאנס אנד פיטנס בע&quot;מ ",
+		"customer_name" : "באלאנס אנד פיטנס בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5042",
@@ -7201,7 +7201,7 @@
 	},
 	{
 		"id" : 745,
-		"customer_name" : "באלאנס אנד פיטנס בע&quot;מ ",
+		"customer_name" : "באלאנס אנד פיטנס בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5042",
@@ -7219,7 +7219,7 @@
 	},
 	{
 		"id" : 746,
-		"customer_name" : "לייב מובייל בע&quot;מ ",
+		"customer_name" : "לייב מובייל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "5010",
@@ -7237,7 +7237,7 @@
 	},
 	{
 		"id" : 747,
-		"customer_name" : "שוק העיר (ט.ע.מ.ס) בע&quot;מ ",
+		"customer_name" : "שוק העיר (ט.ע.מ.ס) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5313",
@@ -7255,7 +7255,7 @@
 	},
 	{
 		"id" : 748,
-		"customer_name" : "אווא אופציות קפה איכות בע&quot;מ ",
+		"customer_name" : "אווא אופציות קפה איכות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5383",
@@ -7273,7 +7273,7 @@
 	},
 	{
 		"id" : 749,
-		"customer_name" : "אווא אופציות קפה איכות בע&quot;מ ",
+		"customer_name" : "אווא אופציות קפה איכות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5383",
@@ -7291,7 +7291,7 @@
 	},
 	{
 		"id" : 750,
-		"customer_name" : "צבי כהן אקולוגיה בע&quot;מ ",
+		"customer_name" : "צבי כהן אקולוגיה בע\"מ ",
 		"fortigate_type" : "92D",
 		"egedType" : "PM",
 		"eged" : "5352",
@@ -7309,7 +7309,7 @@
 	},
 	{
 		"id" : 754,
-		"customer_name" : "בי.טי.איי. מרכז מתכות איכות בע&quot;מ ",
+		"customer_name" : "בי.טי.איי. מרכז מתכות איכות בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "4845",
@@ -7327,7 +7327,7 @@
 	},
 	{
 		"id" : 755,
-		"customer_name" : "תבור שאן חרוד אגודה שיתופית חקלאית לתובלה בע&quot; ",
+		"customer_name" : "תבור שאן חרוד אגודה שיתופית חקלאית לתובלה בע\" ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "270",
@@ -7345,7 +7345,7 @@
 	},
 	{
 		"id" : 756,
-		"customer_name" : "רוזן ומינץ 1993 בע&quot;מ ",
+		"customer_name" : "רוזן ומינץ 1993 בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "4883",
@@ -7363,7 +7363,7 @@
 	},
 	{
 		"id" : 757,
-		"customer_name" : "פיתוח מעלות-תרשיחא (1989) חברה בע&quot;מ ",
+		"customer_name" : "פיתוח מעלות-תרשיחא (1989) חברה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5425",
@@ -7525,7 +7525,7 @@
 	},
 	{
 		"id" : 769,
-		"customer_name" : "נ.א.פוליפלקס בע&quot;מ ",
+		"customer_name" : "נ.א.פוליפלקס בע\"מ ",
 		"fortigate_type" : "92D",
 		"egedType" : "PM",
 		"eged" : "4552",
@@ -7543,7 +7543,7 @@
 	},
 	{
 		"id" : 770,
-		"customer_name" : "לייב מובייל בע&quot;מ ",
+		"customer_name" : "לייב מובייל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "5010",
@@ -7705,7 +7705,7 @@
 	},
 	{
 		"id" : 783,
-		"customer_name" : "ש.א.ג. ניהול קניונים בע&quot;מ ",
+		"customer_name" : "ש.א.ג. ניהול קניונים בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5601",
@@ -7723,7 +7723,7 @@
 	},
 	{
 		"id" : 784,
-		"customer_name" : "פאנדבוקס בע&quot;מ ",
+		"customer_name" : "פאנדבוקס בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5682",
@@ -7741,7 +7741,7 @@
 	},
 	{
 		"id" : 785,
-		"customer_name" : "טרה - סקיי בע&quot;מ ",
+		"customer_name" : "טרה - סקיי בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5453",
@@ -7759,7 +7759,7 @@
 	},
 	{
 		"id" : 786,
-		"customer_name" : "טרה - סקיי בע&quot;מ ",
+		"customer_name" : "טרה - סקיי בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5453",
@@ -7777,7 +7777,7 @@
 	},
 	{
 		"id" : 787,
-		"customer_name" : "אופטימום (א.ב.) שיטות ופתרונות בע&quot;מ ",
+		"customer_name" : "אופטימום (א.ב.) שיטות ופתרונות בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5379",
@@ -7813,7 +7813,7 @@
 	},
 	{
 		"id" : 789,
-		"customer_name" : "עין נטפים-מפעלי מים וביוב אילת בע&quot;מ ",
+		"customer_name" : "עין נטפים-מפעלי מים וביוב אילת בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "1557",
@@ -7903,7 +7903,7 @@
 	},
 	{
 		"id" : 794,
-		"customer_name" : "רותם תעשיות בע&quot;מ ",
+		"customer_name" : "רותם תעשיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5579",
@@ -7921,7 +7921,7 @@
 	},
 	{
 		"id" : 795,
-		"customer_name" : "מירנדה פאלקון ריאליטי בע&quot;מ ",
+		"customer_name" : "מירנדה פאלקון ריאליטי בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5582",
@@ -7939,7 +7939,7 @@
 	},
 	{
 		"id" : 796,
-		"customer_name" : "מירנדה פאלקון ריאליטי בע&quot;מ ",
+		"customer_name" : "מירנדה פאלקון ריאליטי בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5582",
@@ -7957,7 +7957,7 @@
 	},
 	{
 		"id" : 797,
-		"customer_name" : "אפ בי ווב בע&quot;מ ",
+		"customer_name" : "אפ בי ווב בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5696",
@@ -7975,7 +7975,7 @@
 	},
 	{
 		"id" : 798,
-		"customer_name" : "מ.אביב מפעלי בניה בע&quot;מ ",
+		"customer_name" : "מ.אביב מפעלי בניה בע\"מ ",
 		"fortigate_type" : "92D",
 		"egedType" : "PM",
 		"eged" : "5280",
@@ -7993,7 +7993,7 @@
 	},
 	{
 		"id" : 801,
-		"customer_name" : "טל הל יסכה בע&quot;מ ",
+		"customer_name" : "טל הל יסכה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "5812",
@@ -8029,7 +8029,7 @@
 	},
 	{
 		"id" : 803,
-		"customer_name" : "בזק בינלאומי בע&quot;מ - מינהלתי ",
+		"customer_name" : "בזק בינלאומי בע\"מ - מינהלתי ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "5965",
@@ -8065,7 +8065,7 @@
 	},
 	{
 		"id" : 806,
-		"customer_name" : "ארפל אלומיניום בע&quot;מ ",
+		"customer_name" : "ארפל אלומיניום בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "4871",
@@ -8119,7 +8119,7 @@
 	},
 	{
 		"id" : 809,
-		"customer_name" : "אימקו תעשיות בע&quot;מ ",
+		"customer_name" : "אימקו תעשיות בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5845",
@@ -8137,7 +8137,7 @@
 	},
 	{
 		"id" : 811,
-		"customer_name" : "אימקו תעשיות בע&quot;מ ",
+		"customer_name" : "אימקו תעשיות בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5845",
@@ -8173,7 +8173,7 @@
 	},
 	{
 		"id" : 813,
-		"customer_name" : "ישראכרט בע&quot;מ ",
+		"customer_name" : "ישראכרט בע\"מ ",
 		"fortigate_type" : "300D",
 		"egedType" : "PM",
 		"eged" : "780",
@@ -8191,7 +8191,7 @@
 	},
 	{
 		"id" : 814,
-		"customer_name" : "גז יגל חברה להפצת גז בע&quot;מ ",
+		"customer_name" : "גז יגל חברה להפצת גז בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : "PM",
 		"eged" : "5886",
@@ -8209,7 +8209,7 @@
 	},
 	{
 		"id" : 815,
-		"customer_name" : "גז יגל חברה להפצת גז בע&quot;מ ",
+		"customer_name" : "גז יגל חברה להפצת גז בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : "PM",
 		"eged" : "5886",
@@ -8227,7 +8227,7 @@
 	},
 	{
 		"id" : 816,
-		"customer_name" : "גז יגל חברה להפצת גז בע&quot;מ ",
+		"customer_name" : "גז יגל חברה להפצת גז בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : "PM",
 		"eged" : "5886",
@@ -8263,7 +8263,7 @@
 	},
 	{
 		"id" : 818,
-		"customer_name" : "אימקו תעשיות בע&quot;מ ",
+		"customer_name" : "אימקו תעשיות בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5845",
@@ -8281,7 +8281,7 @@
 	},
 	{
 		"id" : 819,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6167",
@@ -8299,7 +8299,7 @@
 	},
 	{
 		"id" : 820,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6167",
@@ -8317,7 +8317,7 @@
 	},
 	{
 		"id" : 821,
-		"customer_name" : "ישראכרט בע&quot;מ ",
+		"customer_name" : "ישראכרט בע\"מ ",
 		"fortigate_type" : "111C",
 		"egedType" : "PM",
 		"eged" : "780",
@@ -8335,7 +8335,7 @@
 	},
 	{
 		"id" : 822,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6167",
@@ -8353,7 +8353,7 @@
 	},
 	{
 		"id" : 823,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6167",
@@ -8371,7 +8371,7 @@
 	},
 	{
 		"id" : 824,
-		"customer_name" : "טריפל סי מיחשוב בע&quot;מ ",
+		"customer_name" : "טריפל סי מיחשוב בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "6766",
@@ -8389,7 +8389,7 @@
 	},
 	{
 		"id" : 825,
-		"customer_name" : "שלושה ציונים בע&quot;מ ",
+		"customer_name" : "שלושה ציונים בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "6336",
@@ -8551,7 +8551,7 @@
 	},
 	{
 		"id" : 835,
-		"customer_name" : "דנאל (אדיר יהושע) בע&quot;מ ",
+		"customer_name" : "דנאל (אדיר יהושע) בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6666",
@@ -8569,7 +8569,7 @@
 	},
 	{
 		"id" : 836,
-		"customer_name" : "טופולסקי ושות&#39; בע&quot;מ ",
+		"customer_name" : "טופולסקי ושות&#39; בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5816",
@@ -8587,7 +8587,7 @@
 	},
 	{
 		"id" : 837,
-		"customer_name" : "ניסקו חשמל ואלקטרוניקה בע&quot;מ ",
+		"customer_name" : "ניסקו חשמל ואלקטרוניקה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6802",
@@ -8605,7 +8605,7 @@
 	},
 	{
 		"id" : 838,
-		"customer_name" : "ארפל אלומיניום בע&quot;מ ",
+		"customer_name" : "ארפל אלומיניום בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "4871",
@@ -8623,7 +8623,7 @@
 	},
 	{
 		"id" : 839,
-		"customer_name" : "ארפל אלומיניום בע&quot;מ ",
+		"customer_name" : "ארפל אלומיניום בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : "PM",
 		"eged" : "4871",
@@ -8641,7 +8641,7 @@
 	},
 	{
 		"id" : 840,
-		"customer_name" : "אימקו תעשיות בע&quot;מ ",
+		"customer_name" : "אימקו תעשיות בע\"מ ",
 		"fortigate_type" : null,
 		"egedType" : "PM",
 		"eged" : "5845",
@@ -8677,7 +8677,7 @@
 	},
 	{
 		"id" : 842,
-		"customer_name" : "רצון ליברמן בע&quot;מ ",
+		"customer_name" : "רצון ליברמן בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "7064",
@@ -8695,7 +8695,7 @@
 	},
 	{
 		"id" : 843,
-		"customer_name" : "רצון ליברמן בע&quot;מ ",
+		"customer_name" : "רצון ליברמן בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7064",
@@ -8713,7 +8713,7 @@
 	},
 	{
 		"id" : 844,
-		"customer_name" : "דנאל (אדיר יהושע) בע&quot;מ ",
+		"customer_name" : "דנאל (אדיר יהושע) בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6666",
@@ -8731,7 +8731,7 @@
 	},
 	{
 		"id" : 845,
-		"customer_name" : "אינטוישן רובוטיקס בע&quot;מ ",
+		"customer_name" : "אינטוישן רובוטיקס בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "6779",
@@ -8749,7 +8749,7 @@
 	},
 	{
 		"id" : 846,
-		"customer_name" : "ניביט תקשורת מחשבים (1989) בע&quot;מ ",
+		"customer_name" : "ניביט תקשורת מחשבים (1989) בע\"מ ",
 		"fortigate_type" : "92D",
 		"egedType" : "PM",
 		"eged" : "7239",
@@ -8767,7 +8767,7 @@
 	},
 	{
 		"id" : 848,
-		"customer_name" : "בית הארחה בית וגן ירושלים בע&quot;מ ",
+		"customer_name" : "בית הארחה בית וגן ירושלים בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : "PM",
 		"eged" : "7051",
@@ -8821,7 +8821,7 @@
 	},
 	{
 		"id" : 851,
-		"customer_name" : "טופולסקי ושות&#39; בע&quot;מ ",
+		"customer_name" : "טופולסקי ושות&#39; בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "5816",
@@ -8839,7 +8839,7 @@
 	},
 	{
 		"id" : 852,
-		"customer_name" : "רמון מהנדסים בע&quot;מ ",
+		"customer_name" : "רמון מהנדסים בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "7172",
@@ -8875,7 +8875,7 @@
 	},
 	{
 		"id" : 855,
-		"customer_name" : "מעון דרור בע&quot;מ ",
+		"customer_name" : "מעון דרור בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "7373",
@@ -8893,7 +8893,7 @@
 	},
 	{
 		"id" : 856,
-		"customer_name" : "סונול ישראל בע&quot;מ ",
+		"customer_name" : "סונול ישראל בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "7193",
@@ -9019,7 +9019,7 @@
 	},
 	{
 		"id" : 863,
-		"customer_name" : "קל אוטו בע&quot;מ ",
+		"customer_name" : "קל אוטו בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "6933",
@@ -9037,7 +9037,7 @@
 	},
 	{
 		"id" : 864,
-		"customer_name" : "עינית מכון למשקפיים י-ם בע&quot;מ ",
+		"customer_name" : "עינית מכון למשקפיים י-ם בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7480",
@@ -9055,7 +9055,7 @@
 	},
 	{
 		"id" : 865,
-		"customer_name" : "שוקולד בר (מ.ב) הרצליה בע&quot;מ ",
+		"customer_name" : "שוקולד בר (מ.ב) הרצליה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7250",
@@ -9073,7 +9073,7 @@
 	},
 	{
 		"id" : 866,
-		"customer_name" : "שוקולד בר (מ.ב) הרצליה בע&quot;מ ",
+		"customer_name" : "שוקולד בר (מ.ב) הרצליה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7250",
@@ -9163,7 +9163,7 @@
 	},
 	{
 		"id" : 871,
-		"customer_name" : "סופטימייז בע&quot;מ ",
+		"customer_name" : "סופטימייז בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7515",
@@ -9199,7 +9199,7 @@
 	},
 	{
 		"id" : 873,
-		"customer_name" : "עינית מכון למשקפיים י-ם בע&quot;מ ",
+		"customer_name" : "עינית מכון למשקפיים י-ם בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7480",
@@ -9325,7 +9325,7 @@
 	},
 	{
 		"id" : 880,
-		"customer_name" : "אמירי הגליל בע&quot;מ ",
+		"customer_name" : "אמירי הגליל בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7659",
@@ -9343,7 +9343,7 @@
 	},
 	{
 		"id" : 881,
-		"customer_name" : "קורטק פתרונות קירור בע&quot;מ ",
+		"customer_name" : "קורטק פתרונות קירור בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : "PM",
 		"eged" : "7651",
@@ -9361,7 +9361,7 @@
 	},
 	{
 		"id" : 884,
-		"customer_name" : "תפוח-עמותה לקידום עידן המידע בישראל (ע&quot;ר) ",
+		"customer_name" : "תפוח-עמותה לקידום עידן המידע בישראל (ע\"ר) ",
 		"fortigate_type" : "",
 		"egedType" : "PM",
 		"eged" : "5514",
@@ -9469,7 +9469,7 @@
 	},
 	{
 		"id" : 890,
-		"customer_name" : "אלקטרה בע&quot;מ ",
+		"customer_name" : "אלקטרה בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "2872",
@@ -9487,7 +9487,7 @@
 	},
 	{
 		"id" : 891,
-		"customer_name" : "אימג&#39;סטור מערכות בע&quot;מ ",
+		"customer_name" : "אימג&#39;סטור מערכות בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : "PM",
 		"eged" : "6872",
@@ -9505,7 +9505,7 @@
 	},
 	{
 		"id" : 892,
-		"customer_name" : "ענבלים כ.ו סחר ומלונאות בע&quot;מ ",
+		"customer_name" : "ענבלים כ.ו סחר ומלונאות בע\"מ ",
 		"fortigate_type" : null,
 		"egedType" : "PM",
 		"eged" : "7967",
@@ -9523,7 +9523,7 @@
 	},
 	{
 		"id" : 893,
-		"customer_name" : "ענבלים כ.ו סחר ומלונאות בע&quot;מ ",
+		"customer_name" : "ענבלים כ.ו סחר ומלונאות בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : "PM",
 		"eged" : "7967",
@@ -9649,7 +9649,7 @@
 	},
 	{
 		"id" : 900,
-		"customer_name" : "בתי קולנוע לב בע&quot;מ ",
+		"customer_name" : "בתי קולנוע לב בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : "PM",
 		"eged" : "7354",
@@ -9667,7 +9667,7 @@
 	},
 	{
 		"id" : 901,
-		"customer_name" : "ד&quot;ר פח וצבע חולון בע&quot;מ ",
+		"customer_name" : "ד\"ר פח וצבע חולון בע\"מ ",
 		"fortigate_type" : "240D",
 		"egedType" : "PM",
 		"eged" : "5362",
@@ -9685,7 +9685,7 @@
 	},
 	{
 		"id" : 914,
-		"customer_name" : "בלוטים ישראל בע&quot;מ ",
+		"customer_name" : "בלוטים ישראל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : null,
 		"eged" : "7423",
@@ -9703,7 +9703,7 @@
 	},
 	{
 		"id" : 915,
-		"customer_name" : "החברה לפיתוח הרצליה בע&quot;מ ",
+		"customer_name" : "החברה לפיתוח הרצליה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "6587",
@@ -9721,7 +9721,7 @@
 	},
 	{
 		"id" : 916,
-		"customer_name" : "החברה לפיתוח הרצליה בע&quot;מ ",
+		"customer_name" : "החברה לפיתוח הרצליה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "6587",
@@ -9739,7 +9739,7 @@
 	},
 	{
 		"id" : 917,
-		"customer_name" : "החברה לפיתוח הרצליה בע&quot;מ ",
+		"customer_name" : "החברה לפיתוח הרצליה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "6587",
@@ -9757,7 +9757,7 @@
 	},
 	{
 		"id" : 919,
-		"customer_name" : "החברה לפיתוח הרצליה בע&quot;מ ",
+		"customer_name" : "החברה לפיתוח הרצליה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "6587",
@@ -9775,7 +9775,7 @@
 	},
 	{
 		"id" : 921,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "100D",
 		"egedType" : null,
 		"eged" : "7161",
@@ -9793,7 +9793,7 @@
 	},
 	{
 		"id" : 922,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "100D",
 		"egedType" : null,
 		"eged" : "7161",
@@ -9811,7 +9811,7 @@
 	},
 	{
 		"id" : 923,
-		"customer_name" : "בלוטים ישראל בע&quot;מ ",
+		"customer_name" : "בלוטים ישראל בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : null,
 		"eged" : "7423",
@@ -9829,7 +9829,7 @@
 	},
 	{
 		"id" : 924,
-		"customer_name" : "אינראקטיב בע&quot;מ ",
+		"customer_name" : "אינראקטיב בע\"מ ",
 		"fortigate_type" : "200D",
 		"egedType" : null,
 		"eged" : "8145",
@@ -9847,7 +9847,7 @@
 	},
 	{
 		"id" : 925,
-		"customer_name" : "חסין אש תעשיות בע&quot;מ ",
+		"customer_name" : "חסין אש תעשיות בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "8060",
@@ -9883,7 +9883,7 @@
 	},
 	{
 		"id" : 928,
-		"customer_name" : "בית חולים כפר שאול - רת&quot;מ חדש ",
+		"customer_name" : "בית חולים כפר שאול - רת\"מ חדש ",
 		"fortigate_type" : "100D",
 		"egedType" : null,
 		"eged" : "7059",
@@ -9901,7 +9901,7 @@
 	},
 	{
 		"id" : 930,
-		"customer_name" : "מעיינות העמקים בע&quot;מ ",
+		"customer_name" : "מעיינות העמקים בע\"מ ",
 		"fortigate_type" : "100D",
 		"egedType" : null,
 		"eged" : "7730",
@@ -9919,7 +9919,7 @@
 	},
 	{
 		"id" : 931,
-		"customer_name" : "ח.רכסים והפצה בע&quot;מ ",
+		"customer_name" : "ח.רכסים והפצה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8384",
@@ -9937,7 +9937,7 @@
 	},
 	{
 		"id" : 932,
-		"customer_name" : "החברה לפיתוח הרצליה בע&quot;מ ",
+		"customer_name" : "החברה לפיתוח הרצליה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "6587",
@@ -9955,7 +9955,7 @@
 	},
 	{
 		"id" : 933,
-		"customer_name" : "החברה לפיתוח הרצליה בע&quot;מ ",
+		"customer_name" : "החברה לפיתוח הרצליה בע\"מ ",
 		"fortigate_type" : "60D",
 		"egedType" : null,
 		"eged" : "6587",
@@ -9973,7 +9973,7 @@
 	},
 	{
 		"id" : 937,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -9991,7 +9991,7 @@
 	},
 	{
 		"id" : 938,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10009,7 +10009,7 @@
 	},
 	{
 		"id" : 939,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10027,7 +10027,7 @@
 	},
 	{
 		"id" : 940,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10045,7 +10045,7 @@
 	},
 	{
 		"id" : 941,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10063,7 +10063,7 @@
 	},
 	{
 		"id" : 942,
-		"customer_name" : "בית חולים כפר שאול - רת&quot;מ חדש ",
+		"customer_name" : "בית חולים כפר שאול - רת\"מ חדש ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "7059",
@@ -10081,7 +10081,7 @@
 	},
 	{
 		"id" : 945,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10099,7 +10099,7 @@
 	},
 	{
 		"id" : 946,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10135,7 +10135,7 @@
 	},
 	{
 		"id" : 952,
-		"customer_name" : "בנק יהב לעובדי המדינה בע&quot;מ ",
+		"customer_name" : "בנק יהב לעובדי המדינה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8072",
@@ -10153,7 +10153,7 @@
 	},
 	{
 		"id" : 953,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10225,7 +10225,7 @@
 	},
 	{
 		"id" : 958,
-		"customer_name" : "א.ש. שירותי מוקד בע&quot;מ - רת&quot;מ חדש ",
+		"customer_name" : "א.ש. שירותי מוקד בע\"מ - רת\"מ חדש ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "7867",
@@ -10243,7 +10243,7 @@
 	},
 	{
 		"id" : 959,
-		"customer_name" : "בנק הפועלים בע&quot;מ ",
+		"customer_name" : "בנק הפועלים בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8471",
@@ -10279,7 +10279,7 @@
 	},
 	{
 		"id" : 961,
-		"customer_name" : "ענבל חברה לביטוח בע&quot;מ ",
+		"customer_name" : "ענבל חברה לביטוח בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "8530",
@@ -10297,7 +10297,7 @@
 	},
 	{
 		"id" : 962,
-		"customer_name" : "ענבל חברה לביטוח בע&quot;מ ",
+		"customer_name" : "ענבל חברה לביטוח בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "8530",
@@ -10315,7 +10315,7 @@
 	},
 	{
 		"id" : 963,
-		"customer_name" : "בנק יהב לעובדי המדינה בע&quot;מ ",
+		"customer_name" : "בנק יהב לעובדי המדינה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8072",
@@ -10387,7 +10387,7 @@
 	},
 	{
 		"id" : 968,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "7161",
@@ -10405,7 +10405,7 @@
 	},
 	{
 		"id" : 969,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "7512",
@@ -10423,7 +10423,7 @@
 	},
 	{
 		"id" : 970,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7512",
@@ -10441,7 +10441,7 @@
 	},
 	{
 		"id" : 972,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7512",
@@ -10459,7 +10459,7 @@
 	},
 	{
 		"id" : 976,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7592",
@@ -10477,7 +10477,7 @@
 	},
 	{
 		"id" : 977,
-		"customer_name" : "נתיבי ישראל בע&quot;מ - רת&quot;מ חדש ",
+		"customer_name" : "נתיבי ישראל בע\"מ - רת\"מ חדש ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "5356",
@@ -10495,7 +10495,7 @@
 	},
 	{
 		"id" : 978,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7512",
@@ -10513,7 +10513,7 @@
 	},
 	{
 		"id" : 979,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7512",
@@ -10531,7 +10531,7 @@
 	},
 	{
 		"id" : 980,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7512",
@@ -10567,7 +10567,7 @@
 	},
 	{
 		"id" : 982,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10585,7 +10585,7 @@
 	},
 	{
 		"id" : 983,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10603,7 +10603,7 @@
 	},
 	{
 		"id" : 984,
-		"customer_name" : "ביה&quot;ח לחולי נפש באר יעקב ונס ציונה ",
+		"customer_name" : "ביה\"ח לחולי נפש באר יעקב ונס ציונה ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "7161",
@@ -10621,7 +10621,7 @@
 	},
 	{
 		"id" : 985,
-		"customer_name" : "אחוזת פולג (1998) בע&quot;מ ",
+		"customer_name" : "אחוזת פולג (1998) בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8736",
@@ -10639,7 +10639,7 @@
 	},
 	{
 		"id" : 987,
-		"customer_name" : "משרד הבריאות - רת&quot;מ ",
+		"customer_name" : "משרד הבריאות - רת\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "8747",
@@ -10657,7 +10657,7 @@
 	},
 	{
 		"id" : 990,
-		"customer_name" : "מי שבע - תאגיד המים והביוב לבאר-שבע בע&quot;מ",
+		"customer_name" : "מי שבע - תאגיד המים והביוב לבאר-שבע בע\"מ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8875",
@@ -10711,7 +10711,7 @@
 	},
 	{
 		"id" : 994,
-		"customer_name" : "שומרה חברה לביטוח בע&quot;מ ",
+		"customer_name" : "שומרה חברה לביטוח בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3778",
@@ -10729,7 +10729,7 @@
 	},
 	{
 		"id" : 995,
-		"customer_name" : "אקרשטיין תעשיות בע&quot;מ ",
+		"customer_name" : "אקרשטיין תעשיות בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8955",
@@ -10747,7 +10747,7 @@
 	},
 	{
 		"id" : 996,
-		"customer_name" : "אקרשטיין תעשיות בע&quot;מ ",
+		"customer_name" : "אקרשטיין תעשיות בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8955",
@@ -10765,7 +10765,7 @@
 	},
 	{
 		"id" : 998,
-		"customer_name" : "אקרשטיין תעשיות בע&quot;מ ",
+		"customer_name" : "אקרשטיין תעשיות בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8955",
@@ -10783,7 +10783,7 @@
 	},
 	{
 		"id" : 1001,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -10801,7 +10801,7 @@
 	},
 	{
 		"id" : 1002,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -10819,7 +10819,7 @@
 	},
 	{
 		"id" : 1004,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -10837,7 +10837,7 @@
 	},
 	{
 		"id" : 1005,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -10855,7 +10855,7 @@
 	},
 	{
 		"id" : 1006,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -10873,7 +10873,7 @@
 	},
 	{
 		"id" : 1007,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -11071,7 +11071,7 @@
 	},
 	{
 		"id" : 1021,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -11089,7 +11089,7 @@
 	},
 	{
 		"id" : 1022,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -11107,7 +11107,7 @@
 	},
 	{
 		"id" : 1023,
-		"customer_name" : "מרב-מזון כל בע&quot;מ ",
+		"customer_name" : "מרב-מזון כל בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "7989",
@@ -11161,7 +11161,7 @@
 	},
 	{
 		"id" : 1026,
-		"customer_name" : "צה&quot;ל ",
+		"customer_name" : "צה\"ל ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9103",
@@ -11179,7 +11179,7 @@
 	},
 	{
 		"id" : 1027,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -11197,7 +11197,7 @@
 	},
 	{
 		"id" : 1028,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -11287,7 +11287,7 @@
 	},
 	{
 		"id" : 1033,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "7512",
@@ -11341,7 +11341,7 @@
 	},
 	{
 		"id" : 1036,
-		"customer_name" : "חברת דואר ישראל בע&quot;מ ",
+		"customer_name" : "חברת דואר ישראל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8501",
@@ -11395,7 +11395,7 @@
 	},
 	{
 		"id" : 1044,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8880",
@@ -11413,7 +11413,7 @@
 	},
 	{
 		"id" : 1048,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -11431,7 +11431,7 @@
 	},
 	{
 		"id" : 1050,
-		"customer_name" : "ג&#39;י וואן טכנולוגיות מיגון בע&quot;מ ",
+		"customer_name" : "ג&#39;י וואן טכנולוגיות מיגון בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8712",
@@ -11449,7 +11449,7 @@
 	},
 	{
 		"id" : 1051,
-		"customer_name" : "ג&#39;י וואן טכנולוגיות מיגון בע&quot;מ ",
+		"customer_name" : "ג&#39;י וואן טכנולוגיות מיגון בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8712",
@@ -11467,7 +11467,7 @@
 	},
 	{
 		"id" : 1052,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8880",
@@ -11485,7 +11485,7 @@
 	},
 	{
 		"id" : 1054,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8880",
@@ -11503,7 +11503,7 @@
 	},
 	{
 		"id" : 1055,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8880",
@@ -11611,7 +11611,7 @@
 	},
 	{
 		"id" : 1063,
-		"customer_name" : "חברת דואר ישראל בע&quot;מ ",
+		"customer_name" : "חברת דואר ישראל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8501",
@@ -11629,7 +11629,7 @@
 	},
 	{
 		"id" : 1089,
-		"customer_name" : "ביה&quot;ח שיבא תל השומר ",
+		"customer_name" : "ביה\"ח שיבא תל השומר ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "7818",
@@ -11647,7 +11647,7 @@
 	},
 	{
 		"id" : 1092,
-		"customer_name" : "המרכז הבריאותי לכף הרגל בע&quot;מ ",
+		"customer_name" : "המרכז הבריאותי לכף הרגל בע\"מ ",
 		"fortigate_type" : "בחר ציוד ",
 		"egedType" : null,
 		"eged" : "549",
@@ -11665,7 +11665,7 @@
 	},
 	{
 		"id" : 1094,
-		"customer_name" : "הסוכנות היהודית לארץ ישראל-רת&quot;מ חדש ",
+		"customer_name" : "הסוכנות היהודית לארץ ישראל-רת\"מ חדש ",
 		"fortigate_type" : "בחר ציוד ",
 		"egedType" : null,
 		"eged" : "565",
@@ -11719,7 +11719,7 @@
 	},
 	{
 		"id" : 1156,
-		"customer_name" : "מיכפל מיקרו מחשבים בע&quot;מ ",
+		"customer_name" : "מיכפל מיקרו מחשבים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9217",
@@ -11935,7 +11935,7 @@
 	},
 	{
 		"id" : 1169,
-		"customer_name" : "הירש-פלק, מזרחי, גילת, אורן עו&quot;ד ",
+		"customer_name" : "הירש-פלק, מזרחי, גילת, אורן עו\"ד ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9020 ",
@@ -11953,7 +11953,7 @@
 	},
 	{
 		"id" : 1171,
-		"customer_name" : "חברת דואר ישראל בע&quot;מ ",
+		"customer_name" : "חברת דואר ישראל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8501",
@@ -11971,7 +11971,7 @@
 	},
 	{
 		"id" : 1174,
-		"customer_name" : "אסותא מרכזים רפואיים בע&quot;מ ",
+		"customer_name" : "אסותא מרכזים רפואיים בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "7512",
@@ -11989,7 +11989,7 @@
 	},
 	{
 		"id" : 1175,
-		"customer_name" : "קונטאל אוטומציה ובקרה בע&quot;מ ",
+		"customer_name" : "קונטאל אוטומציה ובקרה בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9306",
@@ -12007,7 +12007,7 @@
 	},
 	{
 		"id" : 1176,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -12025,7 +12025,7 @@
 	},
 	{
 		"id" : 1181,
-		"customer_name" : "איל מקיאג&#39; קוסמטיקה (2013) בע&quot;מ ",
+		"customer_name" : "איל מקיאג&#39; קוסמטיקה (2013) בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9332",
@@ -12043,7 +12043,7 @@
 	},
 	{
 		"id" : 1183,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8880",
@@ -12061,7 +12061,7 @@
 	},
 	{
 		"id" : 1184,
-		"customer_name" : "איל מקיאג&#39; קוסמטיקה (2013) בע&quot;מ ",
+		"customer_name" : "איל מקיאג&#39; קוסמטיקה (2013) בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9332",
@@ -12115,7 +12115,7 @@
 	},
 	{
 		"id" : 1188,
-		"customer_name" : "טרנסוורלד לוגיסטיקה בע&quot;מ ",
+		"customer_name" : "טרנסוורלד לוגיסטיקה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "9209",
@@ -12133,7 +12133,7 @@
 	},
 	{
 		"id" : 1190,
-		"customer_name" : "כפר ילדים ונוער &quot;אהבה&quot; ",
+		"customer_name" : "כפר ילדים ונוער \"אהבה\" ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "8718",
@@ -12169,7 +12169,7 @@
 	},
 	{
 		"id" : 1192,
-		"customer_name" : "טראקנט אנטרפרייז בע&quot;מ ",
+		"customer_name" : "טראקנט אנטרפרייז בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "9471",
@@ -12187,7 +12187,7 @@
 	},
 	{
 		"id" : 1193,
-		"customer_name" : "מיכפל מיקרו מחשבים בע&quot;מ ",
+		"customer_name" : "מיכפל מיקרו מחשבים בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9217",
@@ -12241,7 +12241,7 @@
 	},
 	{
 		"id" : 1197,
-		"customer_name" : "דיוטי סוכנות לביטוח (1999) בע&quot;מ ",
+		"customer_name" : "דיוטי סוכנות לביטוח (1999) בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9620",
@@ -12259,7 +12259,7 @@
 	},
 	{
 		"id" : 1198,
-		"customer_name" : "כפר ילדים ונוער &quot;אהבה&quot; ",
+		"customer_name" : "כפר ילדים ונוער \"אהבה\" ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "8718",
@@ -12277,7 +12277,7 @@
 	},
 	{
 		"id" : 1199,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -12295,7 +12295,7 @@
 	},
 	{
 		"id" : 1200,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8880",
@@ -12313,7 +12313,7 @@
 	},
 	{
 		"id" : 1201,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8880",
@@ -12331,7 +12331,7 @@
 	},
 	{
 		"id" : 1202,
-		"customer_name" : "טולמנ&#39;ס (ישראל) בע&quot;מ ",
+		"customer_name" : "טולמנ&#39;ס (ישראל) בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "8880",
@@ -12367,7 +12367,7 @@
 	},
 	{
 		"id" : 1205,
-		"customer_name" : "ח.רכסים והפצה בע&quot;מ ",
+		"customer_name" : "ח.רכסים והפצה בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9165",
@@ -12385,7 +12385,7 @@
 	},
 	{
 		"id" : 1208,
-		"customer_name" : "כונס - דקור רהיט 2000 בע&quot;מ ",
+		"customer_name" : "כונס - דקור רהיט 2000 בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9501",
@@ -12421,7 +12421,7 @@
 	},
 	{
 		"id" : 1210,
-		"customer_name" : "אתגרים הדרכות בע&quot;מ ",
+		"customer_name" : "אתגרים הדרכות בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9588",
@@ -12439,7 +12439,7 @@
 	},
 	{
 		"id" : 1212,
-		"customer_name" : "יצחק אביבי יצור בע&quot;מ ",
+		"customer_name" : "יצחק אביבי יצור בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8971",
@@ -12457,7 +12457,7 @@
 	},
 	{
 		"id" : 1213,
-		"customer_name" : "אדירם תעשיות מתכת בע&quot;מ ",
+		"customer_name" : "אדירם תעשיות מתכת בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9083",
@@ -12475,7 +12475,7 @@
 	},
 	{
 		"id" : 1214,
-		"customer_name" : "יצחק אביבי יצור בע&quot;מ ",
+		"customer_name" : "יצחק אביבי יצור בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8971",
@@ -12511,7 +12511,7 @@
 	},
 	{
 		"id" : 1216,
-		"customer_name" : "יצחק אביבי יצור בע&quot;מ ",
+		"customer_name" : "יצחק אביבי יצור בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8971",
@@ -12529,7 +12529,7 @@
 	},
 	{
 		"id" : 1217,
-		"customer_name" : "סונול ישראל בע&quot;מ ",
+		"customer_name" : "סונול ישראל בע\"מ ",
 		"fortigate_type" : null,
 		"egedType" : null,
 		"eged" : "8293 ",
@@ -12547,7 +12547,7 @@
 	},
 	{
 		"id" : 1218,
-		"customer_name" : "קולנוע חדש בע&quot;מ ",
+		"customer_name" : "קולנוע חדש בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "7725",
@@ -12565,7 +12565,7 @@
 	},
 	{
 		"id" : 1219,
-		"customer_name" : "יצחק אביבי יצור בע&quot;מ ",
+		"customer_name" : "יצחק אביבי יצור בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8971",
@@ -12583,7 +12583,7 @@
 	},
 	{
 		"id" : 1220,
-		"customer_name" : "יצחק אביבי יצור בע&quot;מ ",
+		"customer_name" : "יצחק אביבי יצור בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8971",
@@ -12638,7 +12638,7 @@
 	},
 	{
 		"id" : 1223,
-		"customer_name" : "טוויסטק בע&quot;מ ",
+		"customer_name" : "טוויסטק בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "4440",
@@ -12656,7 +12656,7 @@
 	},
 	{
 		"id" : 1224,
-		"customer_name" : "ח.רכסים והפצה בע&quot;מ ",
+		"customer_name" : "ח.רכסים והפצה בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9165",
@@ -12674,7 +12674,7 @@
 	},
 	{
 		"id" : 1225,
-		"customer_name" : "דיוטי סוכנות לביטוח (1999) בע&quot;מ ",
+		"customer_name" : "דיוטי סוכנות לביטוח (1999) בע\"מ ",
 		"fortigate_type" : "60E",
 		"egedType" : null,
 		"eged" : "9620",
@@ -12692,7 +12692,7 @@
 	},
 	{
 		"id" : 1226,
-		"customer_name" : "כונס - דקור רהיט 2000 בע&quot;מ ",
+		"customer_name" : "כונס - דקור רהיט 2000 בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "9501",
@@ -12710,7 +12710,7 @@
 	},
 	{
 		"id" : 1228,
-		"customer_name" : "משרד האנרגיה והמים - רת&quot;מ חדש ",
+		"customer_name" : "משרד האנרגיה והמים - רת\"מ חדש ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9338",
@@ -12728,7 +12728,7 @@
 	},
 	{
 		"id" : 1229,
-		"customer_name" : "ח.רכסים והפצה בע&quot;מ ",
+		"customer_name" : "ח.רכסים והפצה בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9165",
@@ -12764,7 +12764,7 @@
 	},
 	{
 		"id" : 1231,
-		"customer_name" : "בנק לאומי לישראל בע&quot;מ ",
+		"customer_name" : "בנק לאומי לישראל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9520",
@@ -12782,7 +12782,7 @@
 	},
 	{
 		"id" : 1232,
-		"customer_name" : "בנק יהב לעובדי המדינה בע&quot;מ ",
+		"customer_name" : "בנק יהב לעובדי המדינה בע\"מ ",
 		"fortigate_type" : "50E",
 		"egedType" : null,
 		"eged" : "8072",
@@ -12854,7 +12854,7 @@
 	},
 	{
 		"id" : 1236,
-		"customer_name" : "מרינה פטריות הגליל בע&quot;מ ",
+		"customer_name" : "מרינה פטריות הגליל בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "11089",
@@ -12890,7 +12890,7 @@
 	},
 	{
 		"id" : 1238,
-		"customer_name" : "י.י.ח. חרש בע&quot;מ - כלים סניטריים ",
+		"customer_name" : "י.י.ח. חרש בע\"מ - כלים סניטריים ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8784",
@@ -12944,7 +12944,7 @@
 	},
 	{
 		"id" : 1245,
-		"customer_name" : "צבי כהן אקולוגיה בע&quot;מ ",
+		"customer_name" : "צבי כהן אקולוגיה בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "9589",
@@ -12962,7 +12962,7 @@
 	},
 	{
 		"id" : 1246,
-		"customer_name" : "ג&#39;סקו-חברה כללית להשגחה בע&quot;מ ",
+		"customer_name" : "ג&#39;סקו-חברה כללית להשגחה בע\"מ ",
 		"fortigate_type" : "",
 		"egedType" : null,
 		"eged" : "10955",
@@ -13016,7 +13016,7 @@
 	},
 	{
 		"id" : 1249,
-		"customer_name" : "לשכת הבריאות - חיפה - רת&quot;מ חדש ",
+		"customer_name" : "לשכת הבריאות - חיפה - רת\"מ חדש ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8953",
@@ -13034,7 +13034,7 @@
 	},
 	{
 		"id" : 1250,
-		"customer_name" : "לשכת הבריאות - חיפה - רת&quot;מ חדש ",
+		"customer_name" : "לשכת הבריאות - חיפה - רת\"מ חדש ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "8953",
@@ -13052,7 +13052,7 @@
 	},
 	{
 		"id" : 1251,
-		"customer_name" : "ראדא תעשיות אלקטרוניות בע&quot;מ ",
+		"customer_name" : "ראדא תעשיות אלקטרוניות בע\"מ ",
 		"fortigate_type" : "100E",
 		"egedType" : null,
 		"eged" : "3481",

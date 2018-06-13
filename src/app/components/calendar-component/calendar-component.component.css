@@ -1,0 +1,24 @@
+.modal-container {
+  direction: rtl;
+  text-align: right;
+}
+
+:host ::ng-deep .cal-open-day-events {
+  direction: rtl;
+  text-align: right;
+  background-color: #3e3e3e!important;
+}
+
+:host ::ng-deep .cal-open-day-events>div {
+  /* border: 1px solid; */
+  /* padding: .5em; */
+  margin: .5em;
+}
+
+:host ::ng-deep .cal-open-day-events .cal-event {
+  vertical-align: top;
+}
+
+:host ::ng-deep .day-closed {
+  background-color: pink !important;
+}
