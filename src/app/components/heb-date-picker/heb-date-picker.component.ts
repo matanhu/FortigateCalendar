@@ -1,8 +1,10 @@
 import { Component, OnInit, Injectable, Input, ChangeDetectorRef, forwardRef } from '@angular/core';
-import { NgbDateStruct, NgbDatepickerI18n } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDateStruct, NgbDatepickerI18n, NgbDateParserFormatter } from '@ng-bootstrap/ng-bootstrap';
 import { setYear, setMonth, setDate, getDate, getMonth, getYear } from 'date-fns';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { FortigateService } from '../../Services/fortigate.service/fortigate.service';
+import { isNumber } from 'util';
+import { toInteger, padNumber } from '@ng-bootstrap/ng-bootstrap/util/util';
 
 const I18N_VALUES = {
   'he': {
@@ -43,6 +45,29 @@ export class CustomDatepickerI18n extends NgbDatepickerI18n {
   }
 }
 
+@Injectable()
+export class NgbDateCustomParserFormatter extends NgbDateParserFormatter {
+  parse(value: string): NgbDateStruct {
+    if (value) {
+      const dateParts = value.trim().split('-');
+      if (dateParts.length === 1 && isNumber(dateParts[0])) {
+        return {day: toInteger(dateParts[0]), month: null, year: null};
+      } else if (dateParts.length === 2 && isNumber(dateParts[0]) && isNumber(dateParts[1])) {
+        return {day: toInteger(dateParts[0]), month: toInteger(dateParts[1]), year: null};
+      } else if (dateParts.length === 3 && isNumber(dateParts[0]) && isNumber(dateParts[1]) && isNumber(dateParts[2])) {
+        return {day: toInteger(dateParts[0]), month: toInteger(dateParts[1]), year: toInteger(dateParts[2])};
+      }
+    }
+    return null;
+  }
+
+  format(date: NgbDateStruct): string {
+    return date ?
+        `${isNumber(date.day) ? padNumber(date.day) : ''}-${isNumber(date.month) ? padNumber(date.month) : ''}-${date.year}` :
+        '';
+  }
+}
+
 export const DATE_TIME_PICKER_CONTROL_VALUE_ACCESSOR: any = {
   provide: NG_VALUE_ACCESSOR,
   useExisting: forwardRef(() => HebDatePickerComponent),
@@ -56,6 +81,7 @@ export const DATE_TIME_PICKER_CONTROL_VALUE_ACCESSOR: any = {
   providers: [
     I18n,
     {provide: NgbDatepickerI18n, useClass: CustomDatepickerI18n},
+    {provide: NgbDateParserFormatter, useClass: NgbDateCustomParserFormatter},
     DATE_TIME_PICKER_CONTROL_VALUE_ACCESSOR] // define custom NgbDatepickerI18n provider
 })
 export class HebDatePickerComponent implements ControlValueAccessor, OnInit {
