@@ -7,13 +7,71 @@
       </button>
     </div>
     <div class="modal-body">
-      <div>
-        Action:
-        <pre>{{ modalData?.action }}</pre>
-      </div>
-      <div>
-        Event:
-        <pre>{{ modalData?.event | json }}</pre>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label class="label-field" for="eged">מספר פרויקט</label>
+            <div readonly class="form-control" id="eged">{{modalData?.event.eged}}</div>
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="customer_name">שם לקוח</label>
+            <div readonly class="form-control" id="customer_name">{{modalData?.event.customer_name}}</div>
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="line_code">מספר קו</label>
+            <div readonly class="form-control" id="line_code">{{modalData?.event.line_code}}</div>
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="referant">שם הרפרנט</label>
+            <div readonly class="form-control" id="referant">{{modalData?.event.referant}}</div>
+          </div>
+          <!-- <div class="form-group">
+            <label class="label-field" for="referant">שם היועץ</label>
+            <div readonly class="form-control" id="referant">{{modalData?.event.referant}}</div>
+          </div> -->
+          <div class="form-group">
+            <label class="label-field" for="technician">שם הטכנאי</label>
+            <div readonly class="form-control" id="technician">{{modalData?.event.technician}}</div>
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="installation_initiator">מנהל פרוייקט</label>
+            <div readonly class="form-control" id="installation_initiator">{{modalData?.event.installation_initiator}}</div>
+          </div>
+          <div class="row">
+            <div class="col-6 form-group">
+              <label class="label-field" for="installation_date">תאריך ההפעלה</label>
+              <div readonly class="form-control" id="installation_date">{{modalData?.event.installation_date | date : 'dd-MM-yyy'}}</div>
+            </div>
+            <div class="col-6 form-group">
+              <label class="label-field" for="installation_time">שעת ההתקנה</label>
+              <div readonly class="form-control" id="installation_time">{{modalData?.event.installation_time}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label class="label-field" for="fortigate_type">סוג ה-Fortigate</label>
+            <div readonly class="form-control" id="fortigate_type">{{modalData?.event.fortigate_type}}</div>
+          </div>
+
+          <div class="form-group">
+            <label class="label-field" for="fortigate_installation_type">סוג הפעלה</label>
+            <div readonly class="form-control" id="fortigate_installation_type">{{modalData?.event.fortigate_installation_type}}</div>
+          </div>
+<!--
+          <div class="form-group" *ngIf="isShowpreparationPicker && (event.fortigate_installation_type.days_need_before > 0)">
+            <div class="days_need_before_alert">להפעלה זו נדרשים {{event.fortigate_installation_type.days_need_before}} ימי הכנה</div>
+            <label class="label-field" for="preparation_days">ימי הכנה</label>
+            <app-heb-date-picker [(ngModel)]="event.preparation_days" name="'preparation_days'" [disabledDates]="disabledDates" [coutDaysPermited]="event.fortigate_installation_type.days_need_before"
+              [onlyDateBefore]="event.installation_day" [disableSpecificDay]="event.installation_day">
+            </app-heb-date-picker>
+          </div>
+
+          <div class="form-group">
+            <label class="label-field" for="installation_remarks">הערות</label>
+            <textarea class="form-control" id="installation_remarks" name="installation_remarks" [(ngModel)]="event.installation_remarks"></textarea>
+          </div> -->
+        </div>
       </div>
     </div>
     <div class="modal-footer">
@@ -25,28 +83,14 @@
 <div class="row text-center">
   <div class="col-md-4">
     <div class="btn-group">
-      <div
-        class="btn btn-primary"
-        mwlCalendarPreviousView
-        [view]="view"
-        [(viewDate)]="viewDate"
-        (viewDateChange)="activeDayIsOpen = false"
+      <div class="btn btn-primary" mwlCalendarPreviousView [view]="view" [(viewDate)]="viewDate" (viewDateChange)="activeDayIsOpen = false"
         (viewDateChange)="fetchEvents()">
         הקודם
       </div>
-      <div
-        class="btn btn-outline-secondary"
-        mwlCalendarToday
-        [(viewDate)]="viewDate"
-        (viewDateChange)="fetchEvents()">
+      <div class="btn btn-outline-secondary" mwlCalendarToday [(viewDate)]="viewDate" (viewDateChange)="fetchEvents()">
         היום
       </div>
-      <div
-        class="btn btn-primary"
-        mwlCalendarNextView
-        [view]="view"
-        [(viewDate)]="viewDate"
-        (viewDateChange)="activeDayIsOpen = false"
+      <div class="btn btn-primary" mwlCalendarNextView [view]="view" [(viewDate)]="viewDate" (viewDateChange)="activeDayIsOpen = false"
         (viewDateChange)="fetchEvents()">
         הבא
       </div>
@@ -57,22 +101,13 @@
   </div>
   <div class="col-md-4">
     <div class="btn-group">
-      <div
-        class="btn btn-primary"
-        (click)="view = 'month'"
-        [class.active]="view === 'month'">
+      <div class="btn btn-primary" (click)="view = 'month'" [class.active]="view === 'month'">
         חודש
       </div>
-      <div
-        class="btn btn-primary"
-        (click)="view = 'week'"
-        [class.active]="view === 'week'">
+      <div class="btn btn-primary" (click)="view = 'week'" [class.active]="view === 'week'">
         שבוע
       </div>
-      <div
-        class="btn btn-primary"
-        (click)="view = 'day'"
-        [class.active]="view === 'day'">
+      <div class="btn btn-primary" (click)="view = 'day'" [class.active]="view === 'day'">
         יום
       </div>
     </div>
@@ -82,36 +117,29 @@
 
 
 <div [ngSwitch]="view">
-  <mwl-calendar-month-view
-    *ngSwitchCase="'month'"
-    [viewDate]="viewDate"
-    [events]="events"
-    [refresh]="refresh"
-    [locale]="locale"
-    [activeDayIsOpen]="activeDayIsOpen"
-    (dayClicked)="dayClicked($event.day)"
-    (eventClicked)="handleEvent('Clicked', $event.event)"
-    (eventTimesChanged)="eventTimesChanged($event)"
-    (beforeViewRender)="beforeMonthViewRender($event)">
+  <mwl-calendar-month-view *ngSwitchCase="'month'" [viewDate]="viewDate" [events]="events" [refresh]="refresh" [locale]="locale"
+    [activeDayIsOpen]="activeDayIsOpen" (dayClicked)="dayClicked($event.day)" (eventClicked)="handleEvent('Clicked', $event.event)"
+    (eventTimesChanged)="eventTimesChanged($event)" (beforeViewRender)="beforeMonthViewRender($event)" [cellTemplate]="customCellTemplate">
   </mwl-calendar-month-view>
-  <mwl-calendar-week-view
-    *ngSwitchCase="'week'"
-    [viewDate]="viewDate"
-    [events]="events"
-    [refresh]="refresh"
-    (eventClicked)="handleEvent('Clicked', $event.event)"
+  <mwl-calendar-week-view *ngSwitchCase="'week'" [viewDate]="viewDate" [events]="events" [refresh]="refresh" (eventClicked)="handleEvent('Clicked', $event.event)"
     (eventTimesChanged)="eventTimesChanged($event)">
   </mwl-calendar-week-view>
-  <mwl-calendar-day-view
-    *ngSwitchCase="'day'"
-    [viewDate]="viewDate"
-    [events]="events"
-    [refresh]="refresh"
-    (eventClicked)="handleEvent('Clicked', $event.event)"
+  <mwl-calendar-day-view *ngSwitchCase="'day'" [viewDate]="viewDate" [events]="events" [refresh]="refresh" (eventClicked)="handleEvent('Clicked', $event.event)"
     (eventTimesChanged)="eventTimesChanged($event)">
   </mwl-calendar-day-view>
 </div>
 
-<br><br><br>
 
+<ng-template #customCellTemplate let-day="day" let-locale="locale">
+  <div class="cal-cell-top">
+    <span class="cal-day-badge" *ngIf="day.badgeTotal > 0">{{ day.badgeTotal }}</span>
+    <span class="cal-day-number">{{ day.date | calendarDate:'monthViewDayNumber':locale }}</span>
+    <button type="button" class="add-installation-btn" (click)="addNewInstallation(day.date)" *ngIf="isDayCanCreateEvent(day.date)">
+      <i class="fa fa-fw fa-plus-circle"></i>
+    </button>
+  </div>
+</ng-template>
 
+<br>
+<br>
+<br>

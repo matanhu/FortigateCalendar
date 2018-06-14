@@ -19,7 +19,8 @@ import {
   startOfMonth,
   startOfWeek,
   endOfWeek,
-  format
+  format,
+  isAfter
 } from 'date-fns';
 import { Subject } from 'rxjs';
 import { NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
@@ -32,6 +33,7 @@ import {
 import { FortigateService } from '../../Services/fortigate.service/fortigate.service';
 import { FortyCalendarEvent } from '../../models/fortyCalendarEvent';
 import { CustomDateFormatter } from '../../Providers/custom-date-formatter.provider';
+import { Router } from '@angular/router';
 
 const colors: any = {
   red: {
@@ -65,7 +67,7 @@ export class CalendarComponentComponent implements OnInit {
 
   private modalRef: NgbModalRef;
 
-  locale: string = 'he';
+  locale = 'he';
 
   view = 'month';
 
@@ -99,7 +101,7 @@ export class CalendarComponentComponent implements OnInit {
   public dayEvents: FortyCalendarEvent[] = [];
   activeDayIsOpen = true;
 
-  constructor(private modal: NgbModal, private fortigatService: FortigateService) {}
+  constructor(private modal: NgbModal, private fortigatService: FortigateService, private router: Router) {}
 
   ngOnInit() {
     this.fortigatService.getAllInstallations().subscribe(
@@ -132,10 +134,7 @@ export class CalendarComponentComponent implements OnInit {
     }
   }
 
-  eventTimesChanged({
-    event,
-    newStart,
-    newEnd
+  eventTimesChanged({event, newStart, newEnd
   }: CalendarEventTimesChangedEvent): void {
     event.start = newStart;
     event.end = newEnd;
@@ -194,5 +193,21 @@ export class CalendarComponentComponent implements OnInit {
         day.cssClass = 'day-closed';
       }
     });
+  }
+
+  addNewInstallation(date) {
+    console.log(date);
+    this.router.navigate([`newInstallation/${date}`]);
+  }
+
+  isDayCanCreateEvent = (date) => {
+    console.log(date);
+    if (!isAfter(date, new Date())) {
+      return false;
+    }
+    if (date.getDay() === 5 || date.getDay() === 6) {
+      return false;
+    }
+    return true;
   }
 }

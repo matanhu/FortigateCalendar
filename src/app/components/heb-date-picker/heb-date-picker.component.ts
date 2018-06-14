@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable, Input, ChangeDetectorRef, forwardRef } from '@angular/core';
+import { Component, OnInit, Injectable, Input, ChangeDetectorRef, forwardRef, AfterViewChecked } from '@angular/core';
 import { NgbDateStruct, NgbDatepickerI18n, NgbDateParserFormatter } from '@ng-bootstrap/ng-bootstrap';
 import { setYear, setMonth, setDate, getDate, getMonth, getYear } from 'date-fns';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
@@ -84,36 +84,50 @@ export const DATE_TIME_PICKER_CONTROL_VALUE_ACCESSOR: any = {
     {provide: NgbDateParserFormatter, useClass: NgbDateCustomParserFormatter},
     DATE_TIME_PICKER_CONTROL_VALUE_ACCESSOR] // define custom NgbDatepickerI18n provider
 })
-export class HebDatePickerComponent implements ControlValueAccessor, OnInit {
+export class HebDatePickerComponent implements ControlValueAccessor, OnInit, AfterViewChecked {
 
-  @Input() placeholder: string;
-  @Input() inputName: string;
-  @Input() inputId: string;
-  @Input() disabledDates: Array<Date>;
+  @Input() disabledDates: Array<any>;
+  @Input() coutDaysPermited: number;
+  @Input() onlyDateAfter: Date;
+  @Input() onlyDateBefore: Date;
+  @Input() disableSpecificDay: Date;
   dateStruct: NgbDateStruct;
+  toDate: NgbDateStruct;
+  fromDate: NgbDateStruct;
+  hoveredDate: NgbDateStruct;
 
   date: Date;
   public disa = true;
 
-  private onChangeCallback: (date: NgbDateStruct) => void = () => {};
+  dateSelected: Array<Date>;
+  dateHashSelected: Array<any>;
+  private onChangeCallback: (dateSelected: Array<Date>) => void = () => {};
 
   constructor(private cdr: ChangeDetectorRef) { }
   ngOnInit() {
     console.log(this.disabledDates);
+    this.dateSelected = new Array<Date>();
+    this.dateHashSelected = new Array<any>();
   }
 
-  writeValue(date: Date): void {
-    if (date) {
-      this.date = date;
-      this.dateStruct = {
-        day: getDate(date),
-        month: getMonth(date) + 1,
-        year: getYear(date)
-      };
-      this.cdr.detectChanges();
+  ngAfterViewChecked() {
+  }
+
+  writeValue(dates: Array<Date>): void {
+    if (dates && dates.length > 0) {
+      // this.dateSelected = dates;
+      dates.forEach(date => {
+        this.dateStruct = {
+          day: getDate(date),
+          month: getMonth(date) + 1,
+          year: getYear(date)
+        };
+        this.onDateSelect(this.dateStruct);
+      });
     } else {
-      this.date = new Date();
+      this.dateSelected = new Array<Date>();
     }
+    this.cdr.detectChanges();
   }
 
   registerOnChange(fn: any): void {
@@ -124,31 +138,84 @@ export class HebDatePickerComponent implements ControlValueAccessor, OnInit {
 
 
   updateDate(): void {
-    const newDate: Date = setYear(
-      setMonth(
-        setDate(this.date, this.dateStruct.day),
-        this.dateStruct.month - 1
-      ),
-      this.dateStruct.year
-    );
-    this.writeValue(newDate);
-    this.onChangeCallback(this.dateStruct);
+    // const newDate: Date = setYear(
+    //   setMonth(
+    //     setDate(this.date, this.dateStruct.day),
+    //     this.dateStruct.month - 1
+    //   ),
+    //   this.dateStruct.year
+    // );
+    // this.writeValue(newDate);
+    this.onChangeCallback(this.dateSelected);
   }
 
   isWeekend(date: NgbDateStruct) {
     const d = new Date(date.year, date.month - 1, date.day);
-    return d.getDay() === 0 || d.getDay() === 6;
+    return d.getDay() === 5 || d.getDay() === 6;
   }
 
-  isDisabled = (date: NgbDateStruct) => {
+  isDisabled = (date: NgbDateStruct, current: {month: number}) => {
     console.log(this.disabledDates);
     const d = new Date(date.year, date.month - 1, date.day);
     console.log(this.disabledDates[d.toLocaleDateString('he')]);
-    if (this.disabledDates[d.toLocaleDateString('he')] > 1) {
+    if (this.coutDaysPermited && (this.dateSelected.length === this.coutDaysPermited)) {
+      if (this.dateHashSelected[d.toLocaleDateString('he')]) {
+        return false;
+      }
+      return true;
+    }
+    if (current.month !== date.month) {
+      return;
+    }
+    if (this.isWeekend(date) ) {
+      return true;
+    }
+    if (this.disabledDates[d.toLocaleDateString('he')] > 4) {
+      return true;
+    }
+    if (this.onlyDateBefore) {
+      if (+d > +this.onlyDateBefore) {
+        return true;
+      }
+    }
+    if (this.onlyDateAfter) {
+      if (+d < +this.onlyDateAfter) {
+        return true;
+      }
+    }
+    if (this.disableSpecificDay) {
+      if (+d === +this.disableSpecificDay) {
+        return true;
+      }
+    }
+    if (+d < +(new Date())) {
       return true;
     }
     // return date.day === 13 || d.getDay() === 0 || d.getDay() === 6;
   }
 
 
+  onDateSelect(date: NgbDateStruct) {
+    const d = new Date(date.year, date.month - 1, date.day);
+    // const isSelected = this.dateHashSelected[d.toLocaleDateString('he')];
+    const index = this.dateSelected.findIndex(ds => +ds === +d);
+    if (index > -1) {
+      this.dateHashSelected[d.toLocaleDateString('he')] = false;
+      this.dateSelected.splice(index, 1);
+    } else {
+      this.dateHashSelected[d.toLocaleDateString('he')] = true;
+      this.dateSelected.push(d);
+    }
+    this.updateDate();
+    this.cdr.detectChanges();
+  }
+
+  isSelected = (date) => {
+    const d = new Date(date.year, date.month - 1, date.day);
+    if (this.dateHashSelected[d.toLocaleDateString('he')]) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }

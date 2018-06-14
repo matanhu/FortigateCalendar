@@ -1,4 +1,5 @@
 import { CalendarEvent } from 'angular-calendar';
+import { FortiGateInstallationType } from './FortiGateInstallationType.model';
 
 export class FortyCalendarEvent<MetaType = any> implements CalendarEvent {
   constructor (
@@ -16,10 +17,12 @@ export class FortyCalendarEvent<MetaType = any> implements CalendarEvent {
     /****************************************************************************************************/
     public customer_name?: string,
     public fortigate_type?: string,
+    public fortigate_installation_type?: FortiGateInstallationType,
+    public preparation_days?: Array<Date>,
     public egedType?: string,
     public eged?: string,
-    public installation_date?: string,
-    public installation_day?: string,
+    public installation_date?: Array<Date>,
+    public installation_day?: Date,
     public installation_time?: string,
     public installation_initiator?: string,
     public referant?: string,
@@ -30,9 +33,7 @@ export class FortyCalendarEvent<MetaType = any> implements CalendarEvent {
     public installation_remarks?: string,
     public Script_file?: string
 
-  ) { }
-
-
-
-
+  ) {
+    this.fortigate_installation_type = new FortiGateInstallationType();
+  }
 }

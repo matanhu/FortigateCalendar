@@ -16,7 +16,7 @@
     </div>
   </div>
 </div> -->
-<app-heb-date-picker [placeholder]="placeholder" [id]="inputId" [(ngModel)]="dateStruct" (ngModelChange)="updateDate()"
+<app-heb-date-picker [id]="inputId" [(ngModel)]="dateStruct" (ngModelChange)="updateDate()"
   [disabledDates]="disabledDates"></app-heb-date-picker>
 <ngb-timepicker [(ngModel)]="timeStruct" (ngModelChange)="updateTime()" [spinners]="false">
 </ngb-timepicker>

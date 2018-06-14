@@ -5,32 +5,98 @@
     <div class="clearfix"></div>
   </h3>
 
-  <div class="form-container col-6">
+  <div class="form-container">
     <form (ngSubmit)="onNewInstallation()">
-      <div class="form-group">
-        <label for="eged">מספר פרויקט</label>
-        <input type="text" class="form-control" id="eged" name="eged" [(ngModel)]="event.eged" placeholder="הכנס מספר פרויקט">
-      </div>
-      <div class="form-group">
-        <label for="customer_name">שם לקוח</label>
-        <input type="text" class="form-control" id="customer_name" name="customer_name" [(ngModel)]="event.customer_name" placeholder="הכנס שם לקוח">
-      </div>
-      <div class="form-group">
-        <label for="line_code">מספר קו</label>
-        <input type="text" class="form-control" id="line_code" name="line_code" [(ngModel)]="event.line_code" placeholder="הכנס מספר קו">
-      </div>
-      <div class="form-group">
-          <label for="installation_remarks">הערות</label>
-          <textarea class="form-control" id="installation_remarks" name="installation_remarks" [(ngModel)]="event.installation_remarks"></textarea>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label class="label-field" for="eged">מספר פרויקט</label>
+            <input type="text" class="form-control" id="eged" name="eged" [(ngModel)]="event.eged" placeholder="הכנס מספר פרויקט">
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="customer_name">שם לקוח</label>
+            <input type="text" class="form-control" id="customer_name" name="customer_name" [(ngModel)]="event.customer_name" placeholder="הכנס שם לקוח">
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="line_code">מספר קו</label>
+            <input type="text" class="form-control" id="line_code" name="line_code" [(ngModel)]="event.line_code" placeholder="הכנס מספר קו">
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="referant">שם הרפרנט</label>
+            <!-- <input type="text" class="form-control" id="referant" name="referant" [(ngModel)]="event.referant" placeholder="הכנס שם הרפרנט"> -->
+            <select class="form-control" id="referant" name="referant" [(ngModel)]="event.referant">
+              <!-- <option *ngFor="let c of countries" [ngValue]="c">{{c.name}}</option> -->
+              <option *ngFor="let referant of referantsList" [ngValue]="referant.user_id">{{referant.full_name}}</option>
+            </select>
+          </div>
+          <!-- <div class="form-group">
+        <label class="label-field" for="referant">שם היועץ</label>
+        <input type="text" class="form-control" id="referant" name="referant" [(ngModel)]="event.referant" placeholder="הכנס שם היועץ">
+      </div> -->
+          <div class="form-group">
+            <label class="label-field" for="technician">שם הטכנאי</label>
+            <input type="text" class="form-control" id="technician" name="technician" [(ngModel)]="event.technician" placeholder="הכנס שם הטכנאי">
+          </div>
+          <div class="form-group">
+            <label class="label-field" for="installation_initiator">מנהל פרוייקט</label>
+            <input type="text" class="form-control" id="installation_initiator" name="installation_initiator" [(ngModel)]="event.installation_initiator"
+              placeholder="הכנס מנהל פרוייקט">
+          </div>
+          <div class="row">
+            <div class="col-6 form-group">
+              <label class="label-field" for="installation_day">תאריך ההפעלה</label>
+              <!-- <input readonly type="text" class="form-control" id="installation_day" name="installation_day" [(ngModel)]="event.installation_day"
+                placeholder="תאריך הפעלה"> -->
+                <div readonly class="form-control" id="installation_day" name="installation_day">
+                  {{event.installation_day | date : 'dd-MM-yyy'}}
+                </div>
+            </div>
+            <div class="col-6 form-group">
+              <label class="label-field" for="installation_time">שעת ההתקנה</label>
+              <ngb-timepicker id="installation_time" name="installation_time" [(ngModel)]="event.installation_time"></ngb-timepicker>
+            </div>
+          </div>
         </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label class="label-field" for="fortigate_type">סוג ה-Fortigate</label>
+            <select class="form-control" id="fortigate_type" name="fortigate_type" [(ngModel)]="event.fortigate_type">
+              <!-- <option *ngFor="let c of countries" [ngValue]="c">{{c.name}}</option> -->
+              <option *ngFor="let type of fortigate_types" [ngValue]="type">{{type}}</option>
+            </select>
+          </div>
 
-      <div class="form-group">
-        <label for="installation_date">תאריך התקנה</label>
-        <app-date-time-picker  [(ngModel)]="event.installation_date" placeholder="בחר תאריך התקנה" name="'installation_date'"
-          [inputId]="'installation_date'" [disabledDates]="disabledDates">
-        </app-date-time-picker>
+          <div class="form-group">
+            <label class="label-field" for="fortigate_installation_type">סוג הפעלה</label>
+            <select class="form-control" id="fortigate_installation_type" name="fortigate_installation_type"
+              [(ngModel)]="event.fortigate_installation_type" (change)="onInstallationTypeChange($event)">
+              <!-- <option *ngFor="let c of countries" [ngValue]="c">{{c.name}}</option> -->
+              <option *ngFor="let type of installationType" [ngValue]="type">{{type.name}}</option>
+            </select>
+          </div>
+
+          <div class="form-group" *ngIf="isShowpreparationPicker && (event.fortigate_installation_type.days_need_before > 0)">
+            <div class="days_need_before_alert">להפעלה זו נדרשים {{event.fortigate_installation_type.days_need_before}} ימי הכנה</div>
+            <label class="label-field" for="preparation_days">ימי הכנה</label>
+            <!-- <app-date-time-picker  [(ngModel)]="event.preparation_days" placeholder="בחר תאריך התקנה" name="'preparation_days'"
+          [inputId]="'preparation_days'" [disabledDates]="disabledDates">
+        </app-date-time-picker> -->
+            <app-heb-date-picker
+              [(ngModel)]="event.preparation_days"
+              name="'preparation_days'"
+              [disabledDates]="disabledDates"
+              [coutDaysPermited]="event.fortigate_installation_type.days_need_before"
+              [onlyDateBefore]="event.installation_day"
+              [disableSpecificDay]="event.installation_day">
+            </app-heb-date-picker>
+          </div>
+
+          <div class="form-group">
+            <label class="label-field" for="installation_remarks">הערות</label>
+            <textarea class="form-control" id="installation_remarks" name="installation_remarks" [(ngModel)]="event.installation_remarks"></textarea>
+          </div>
+        </div>
       </div>
-
       <button type="submit" class="btn btn-primary">שמור</button>
     </form>
   </div>
