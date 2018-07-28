@@ -6,7 +6,7 @@ import { NewInstallationPageComponent } from '../pages/new-installation-page/new
 
 const routes: Routes = [
   { path: '', component: CalendarPageComponent, pathMatch: 'full' },
-  { path: 'newInstallation', component: NewInstallationPageComponent}
+  { path: 'newInstallation/:installDate', component: NewInstallationPageComponent}
 
 ];
 

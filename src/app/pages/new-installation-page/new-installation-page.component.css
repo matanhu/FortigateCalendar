@@ -11,7 +11,20 @@
 .form-container {
 }
 
-app-date-time-picker {
+.label-field {
+  font-weight: bold;
+}
+
+.days_need_before_alert {
+  color: rgba(255,5,5,1);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+app-date-time-picker,
+ngb-timepicker,
+app-heb-date-picker,
+.datepicker {
   direction: ltr;
   text-align: right;
 }

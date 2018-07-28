@@ -1,19 +1,44 @@
 <!-- <ngb-datepicker [(ngModel)]="model"></ngb-datepicker> -->
 <div class="form-group">
   <div class="input-group">
-    <input readonly class="form-control" firstDayOfWeek='0' [placeholder]="placeholder" [id]="inputId" [(ngModel)]="dateStruct" (ngModelChange)="updateDate()"
-      ngbDatepicker #datePicker="ngbDatepicker" [dayTemplate]="customDay" [markDisabled]="isDisabled">
+      <ngb-datepicker #dp
+        firstDayOfWeek='0'
+        (select)="onDateSelect($event)"
+        (ngModelChange)="updateDate()"
+        [markDisabled]="isDisabled"
+        [displayMonths]="1"
+        [dayTemplate]="customDay"
+        [outsideDays]="'collapsed'">
+      </ngb-datepicker>
+
+    <!-- <input readonly class="form-control" firstDayOfWeek='0' [placeholder]="placeholder" [id]="inputId" [(ngModel)]="dateStruct" (ngModelChange)="updateDate()"
+      ngbDatepicker #datePicker="ngbDatepicker" [dayTemplate]="customDay" [markDisabled]="isDisabled" (dateSelect)="onDateSelect($event)" [autoClose]="false">
     <div class="input-group-append" (click)="datePicker.toggle()">
       <span class="input-group-text">
         <i class="fa fa-calendar"></i>
       </span>
-    </div>
+    </div> -->
   </div>
 </div>
 
-<ng-template #customDay let-date="date" let-currentMonth="currentMonth" let-selected="selected" let-disabled="disabled" let-focused="focused">
-    <span class="custom-day" [class.weekend]="isWeekend(date)" [class.focused]="focused"
-          [class.bg-primary]="selected" [class.hidden]="date.month !== currentMonth" [class.text-muted]="disabled">
+<ng-template #customDay #t let-date="date" let-focused="focused" let-disabled="disabled" let-focused="focused">
+  <span class="custom-day" [class.day-weekend]="isWeekend(date)" [class.day-focused]="focused"
+        [class.day-selected]="isSelected(date)" [class.day-disabled]="disabled">
+    {{ date.day }}
+  </span>
+</ng-template>
+
+
+  <!-- <ngb-datepicker #dp (select)="onDateSelect($event)" [displayMonths]="2" [dayTemplate]="t">
+  </ngb-datepicker>
+
+  <ng-template #t let-date="date" let-focused="focused">
+    <span class="custom-day"
+          [class.focused]="focused"
+          [class.range]="isFrom(date) || isTo(date) || isInside(date) || isHovered(date)"
+          [class.faded]="isHovered(date) || isInside(date)"
+          (mouseenter)="hoveredDate = date"
+          (mouseleave)="hoveredDate = null">
       {{ date.day }}
     </span>
-  </ng-template>
+  </ng-template> -->

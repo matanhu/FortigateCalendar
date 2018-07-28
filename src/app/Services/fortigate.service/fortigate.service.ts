@@ -4,34 +4,50 @@ import { Observable } from 'rxjs';
 
 import { map } from 'rxjs/operators';
 import { FortyCalendarEvent } from '../../models/fortyCalendarEvent';
-
+import { environment } from '../../../environments/environment';
+import { Referant } from '../../models/Referant.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FortigateService {
-
   public installations: Array<any>;
-  constructor(private http: HttpClient) { }
+  public referants: Array<Referant>;
+  constructor(private http: HttpClient) {}
+
+  GetAllReferants() {
+    return this.http
+      .get(`${environment.baseUrl}fortigate/GetAllReferants`)
+        .pipe(
+          map((res: Array<any>) => {
+            this.referants = res;
+            return this.referants;
+          })
+      );
+  }
 
   getAllInstallations(): Observable<any> {
-    if(!this.installations) {
-    return this.http.get('../../../assets/FortyGate.json')
-      .pipe(
-        map((res: Array<any>) => {
-          this.installations = res;
-          return this.installations;
-        }));
-      }
-      else {
-        return new Observable(observer => {
-            observer.next(this.installations);
-            observer.complete();
-          });
-      }
+    return this.http
+      .get(`${environment.baseUrl}fortigate/GetAllInstallation`)
+        .pipe(
+          map((res: Array<any>) => {
+            this.installations = res;
+            return this.installations;
+          })
+      );
   }
 
   addInstallation(event: FortyCalendarEvent) {
     this.installations.push(event);
+  }
+
+  GetAllFortiGateTypes() {
+    return this.http
+      .get(`${environment.baseUrl}fortigate/GetAllFortiGateTypes`);
+  }
+
+  GetAllFortiGateInstallationType() {
+    return this.http
+      .get(`${environment.baseUrl}fortigate/GetAllFortiGateInstallationType`);
   }
 }

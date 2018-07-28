@@ -3,6 +3,10 @@
   text-align: right;
 }
 
+/* :host ::ng-deep .cal-month-view .cal-day-number {
+  opacity: 1;
+} */
+
 :host ::ng-deep .cal-open-day-events {
   direction: rtl;
   text-align: right;
@@ -21,4 +25,32 @@
 
 :host ::ng-deep .day-closed {
   background-color: pink !important;
+}
+
+:host ::ng-deep .cal-month-view .cal-cell-top {
+  cursor: context-menu;
+  position: relative;
+}
+
+:host ::ng-deep .cal-month-view .cal-day-cell.cal-today .cal-day-number {
+  color: rgba(255, 100, 100,1);
+}
+
+button.add-installation-btn {
+  font-size: 1.2em;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-top: 15px;
+  float: right;
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.modal-header .close {
+  margin: -1rem auto -1rem -1rem;
 }
