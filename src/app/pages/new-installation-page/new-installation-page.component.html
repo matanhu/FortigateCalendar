@@ -26,9 +26,15 @@
 
       <div class="form-group">
         <label for="installation_date">תאריך התקנה</label>
-        <app-date-time-picker  [(ngModel)]="event.installation_date" placeholder="בחר תאריך התקנה" name="'installation_date'"
+        <!-- <app-date-time-picker  [(ngModel)]="event.installation_date" placeholder="בחר תאריך התקנה" name="'installation_date'"
           [inputId]="'installation_date'" [disabledDates]="disabledDates">
-        </app-date-time-picker>
+        </app-date-time-picker> -->
+
+        fromToDate: {{fromToDate | json}}
+        <app-heb-datepicker-range [placeholder]="'בחר תאריך התקנה'" [id]="'installation_date'" name="'installation_date'" [(ngModel)]="fromToDate"
+         (ngModelChange)="onChangeModel($event)">
+          </app-heb-datepicker-range>
+          <!-- (ngModelChange)="updateDate()" -->
       </div>
 
       <button type="submit" class="btn btn-primary">שמור</button>

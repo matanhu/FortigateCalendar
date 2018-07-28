@@ -3,6 +3,7 @@ import { FortyCalendarEvent } from '../../models/fortyCalendarEvent';
 import { FortigateService } from '../../Services/fortigate.service/fortigate.service';
 
 import * as _ from 'lodash';
+import { IDatepickerRange } from '../../components/heb-datepicker-range/heb-datepicker-range.component';
 
 
 @Component({
@@ -13,6 +14,11 @@ import * as _ from 'lodash';
 export class NewInstallationPageComponent implements OnInit {
   public event = new FortyCalendarEvent(new Date(), '');
   public disabledDates: Array<any>;
+
+  public fromToDate: IDatepickerRange = {
+    fromDate: new Date(),
+    toDate: new Date()
+  };
   constructor(private fortigateService: FortigateService) { }
 
   ngOnInit() {
@@ -33,6 +39,11 @@ export class NewInstallationPageComponent implements OnInit {
       }, {});
 
       console.log(this.disabledDates);
+  }
+
+  onChangeModel(event) {
+    console.log('event: ', event);
+    console.log('this.fromToDate: ', this.fromToDate);
   }
 
 }

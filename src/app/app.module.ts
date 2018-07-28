@@ -16,6 +16,7 @@ import { NewInstallationPageComponent } from './pages/new-installation-page/new-
 import { registerLocaleData } from '@angular/common';
 import localeHe from '@angular/common/locales/he';
 import { HebDatePickerComponent } from './components/heb-date-picker/heb-date-picker.component';
+import { HebDatepickerRangeComponent } from './components/heb-datepicker-range/heb-datepicker-range.component';
 
 registerLocaleData(localeHe);
 
@@ -27,7 +28,8 @@ registerLocaleData(localeHe);
     DateTimePickerComponent,
     CalendarPageComponent,
     NewInstallationPageComponent,
-    HebDatePickerComponent
+    HebDatePickerComponent,
+    HebDatepickerRangeComponent
   ],
   imports: [
     BrowserModule,
