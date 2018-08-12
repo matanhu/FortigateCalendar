@@ -1,20 +1,21 @@
-
 <div class="form-group">
   <div class="input-group">
-    <input class="form-control" ngbDatepicker #dp="ngbDatepicker" [autoClose]="false" [dayTemplate]="t" (dateSelect)="onDateSelection($event)"
-      firstDayOfWeek='0' [displayMonths]="2" [dayTemplate]="t" [placement]="'bottom-right'" [markDisabled]="isDisabled">
-    <div class="input-group-append" (click)="dp.toggle()">
+    <button type="button" class="input-group-append" (click)="dp.toggle()">
       <span class="input-group-text">
         <i class="fa fa-calendar"></i>
       </span>
-    </div>
+    </button>
+    <input class="form-control input-date-picker" ngbDatepicker #dp="ngbDatepicker" [autoClose]="false" [dayTemplate]="t" (dateSelect)="onDateSelection($event)"
+      firstDayOfWeek='0' [displayMonths]="2" [dayTemplate]="t" [placement]="'bottom'" [markDisabled]="isDisabled">
+    <input class="form-control" [textMask]="{mask: mask}" type="text" [(ngModel)]="textFromDate" (blur)="onFromBlur()">
+    <input class="form-control" [textMask]="{mask: mask}" type="text" [(ngModel)]="textToDate" (blur)="onToBlur()">
   </div>
 </div>
 
 <ng-template #t let-date="date" let-focused="focused" let-disabled="disabled" let-currentMonth="currentMonth">
   <span class="custom-day" [class.focused]="focused" [class.range]="isFrom(date) || isTo(date) || isInside(date) || isHovered(date)"
-    [class.faded]="isHovered(date) || isInside(date)" [class.day-disabled]="isDisabled(date)" (mouseenter)="hoveredDate = date" (mouseleave)="hoveredDate = null"
-    [class.day-hidden]="date.month !== currentMonth">
+    [class.faded]="isHovered(date) || isInside(date)" [class.day-disabled]="isDisabled(date)" (mouseenter)="hoveredDate = date"
+    (mouseleave)="hoveredDate = null" [class.day-hidden]="date.month !== currentMonth">
     {{ date.day }}
   </span>
 </ng-template>

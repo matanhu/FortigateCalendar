@@ -73,7 +73,12 @@
           [inputId]="'installation_date'" [disabledDates]="disabledDates">
         </app-date-time-picker> -->
 
-        fromToDate: {{fromToDate | json}}
+        <div>
+          fromToDate.fromDate: {{fromToDate?.fromDate | date}}
+        </div>
+        <div>
+          fromToDate.toDate: {{fromToDate?.toDate | date}}
+        </div>
         <app-heb-datepicker-range [placeholder]="'בחר תאריך התקנה'" [id]="'installation_date'" name="'installation_date'" [(ngModel)]="fromToDate"
          (ngModelChange)="onChangeModel($event)">
           </app-heb-datepicker-range>

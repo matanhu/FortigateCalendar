@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable, Input, ChangeDetectorRef, forwardRef, ViewChild } from '@angular/core';
+import { Component, OnInit, Injectable, Input, ChangeDetectorRef, forwardRef, ViewChild, HostListener } from '@angular/core';
 import { NgbDateStruct, NgbDatepickerI18n, NgbDateParserFormatter, NgbCalendar, NgbDatepicker } from '@ng-bootstrap/ng-bootstrap';
 import { setYear, setMonth, setDate, getDate, getMonth, getYear, addDays, differenceInDays } from 'date-fns';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
@@ -105,8 +105,9 @@ export interface IDatepickerRange {
 })
 export class HebDatepickerRangeComponent implements ControlValueAccessor, OnInit {
 
+
   // @ViewChild('dpFrom') dpFrom: NgbDatepicker;
-  // @ViewChild('dpTo') dpTo: NgbDatepicker;
+  @ViewChild('dp') dp: NgbDatepicker;
   @Input() placeholder: string;
   @Input() inputName: string;
   @Input() inputId: string;
@@ -114,8 +115,11 @@ export class HebDatepickerRangeComponent implements ControlValueAccessor, OnInit
   dateStruct: NgbDateStruct;
 
   fromTodate: IDatepickerRange;
+  textFromDate = '';
+  textToDate = '';
 
   public disa = true;
+  public mask = [/\d/, /\d/, '-', /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
 
 
 
@@ -133,6 +137,12 @@ export class HebDatepickerRangeComponent implements ControlValueAccessor, OnInit
 
   ngOnInit() {
   }
+
+  @HostListener('document:keyup', ['$event']) handleKeyUp(event) {
+    if (event.keyCode === 27) {
+        this.dp.close();
+    }
+}
 
   writeValue(fromTodate: IDatepickerRange): void {
     if (fromTodate) {
@@ -159,6 +169,9 @@ export class HebDatepickerRangeComponent implements ControlValueAccessor, OnInit
         toDate: new Date()
       };
     }
+    this.textFromDate = this.getDateString(this.fromTodate.fromDate);
+
+    this.textToDate = this.getDateString(this.fromTodate.toDate);
   }
 
   registerOnChange(fn: any): void {
@@ -199,6 +212,35 @@ export class HebDatepickerRangeComponent implements ControlValueAccessor, OnInit
       this.fromTodate.fromDate = new Date(date.year, date.month - 1, date.day);
       this.fromTodate.toDate = null;
     }
+    this.writeValue(this.fromTodate);
+    this.onChangeCallback(this.fromTodate);
+  }
+
+  getDateString(date: Date): any {
+    return `${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()}-
+      ${(date.getMonth() + 1) < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-
+      ${(date.getFullYear()) < 10 ? '0' + date.getFullYear() : date.getFullYear()}`;
+  }
+
+  onFromBlur() {
+    const tmp = this.textFromDate.split('-');
+    this.fromTodate.fromDate = new Date(Number(tmp[2]), Number(tmp[1])-1, Number(tmp[0]));
+    this.fromDate = {
+      day: Number(tmp[0]),
+      month: Number(tmp[1]),
+      year: Number(tmp[2])
+    };
+    this.writeValue(this.fromTodate);
+    this.onChangeCallback(this.fromTodate);
+  }
+  onToBlur() {
+    const tmp = this.textToDate.split('-');
+    this.fromTodate.toDate = new Date(Number(tmp[2]), Number(tmp[1])-1, Number(tmp[0]));
+    this.toDate = {
+      day: Number(tmp[0]),
+      month: Number(tmp[1]),
+      year: Number(tmp[2])
+    };
     this.writeValue(this.fromTodate);
     this.onChangeCallback(this.fromTodate);
   }

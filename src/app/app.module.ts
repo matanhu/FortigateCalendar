@@ -17,6 +17,8 @@ import { registerLocaleData } from '@angular/common';
 import localeHe from '@angular/common/locales/he';
 import { HebDatePickerComponent } from './components/heb-date-picker/heb-date-picker.component';
 import { HebDatepickerRangeComponent } from './components/heb-datepicker-range/heb-datepicker-range.component';
+import { TextMaskModule } from 'angular2-text-mask';
+
 
 registerLocaleData(localeHe);
 
@@ -39,7 +41,8 @@ registerLocaleData(localeHe);
     NgbModule.forRoot(),
     BrowserAnimationsModule,
     CalendarModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    TextMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]

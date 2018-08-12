@@ -1,6 +1,6 @@
 
 :host {
-  direction: ltr;
+  direction: rtl;
 }
 
 :host ::ng-deep .ngb-dp-weekday {
@@ -29,6 +29,22 @@
   background: #e3e3e3;
 }
 
+:host ::ng-deep .dropdown-menu.show {
+  top: 2.5rem !important;
+  left: 0 !important;
+  direction: ltr;
+}
+
+.input-date-picker {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
 
 
 

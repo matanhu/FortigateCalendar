@@ -20,10 +20,7 @@ export class NewInstallationPageComponent implements OnInit {
   public event = new FortyCalendarEvent(new Date(), '');
   public disabledDates: Array<any>;
 
-  public fromToDate: IDatepickerRange = {
-    fromDate: new Date(),
-    toDate: new Date()
-  };
+  public fromToDate: IDatepickerRange = null;
 
   public referantsList = new Array<Referant>();
   public fortigate_types = new Array<string>();
